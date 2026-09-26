@@ -1,0 +1,3139 @@
+[
+  {
+    "id": "q001",
+    "question": "You find a mysterious key on the sidewalk. What do you do?",
+    "answers": [
+      {
+        "id": "q001_a1",
+        "text": "Pick it up and try to discover what it opens",
+        "traits": {
+          "curiosity": 0.9,
+          "adventure": 0.6
+        }
+      },
+      {
+        "id": "q001_a2",
+        "text": "Leave it where it is; someone else might need it more",
+        "traits": {
+          "empathy": 0.8
+        }
+      },
+      {
+        "id": "q001_a3",
+        "text": "Turn it in at the lost‑and‑found office",
+        "traits": {
+          "leadership": 0.4,
+          "sociability": 0.3
+        }
+      },
+      {
+        "id": "q001_a4",
+        "text": "Ignore it and keep walking",
+        "traits": {
+          "independence": 0.7,
+          "spontaneity": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q002",
+    "question": "A friend asks you to help move a heavy couch on a rainy Saturday. How do you respond?",
+    "answers": [
+      {
+        "id": "q002_a1",
+        "text": "Grab a raincoat and head over right away",
+        "traits": {
+          "sociability": 0.8,
+          "leadership": 0.6
+        }
+      },
+      {
+        "id": "q002_a2",
+        "text": "Suggest hiring professional movers instead",
+        "traits": {
+          "ambition": 0.5,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "id": "q002_a3",
+        "text": "Offer to help but only after you finish your own errands",
+        "traits": {
+          "independence": 0.6,
+          "responsibility": 0.0
+        }
+      },
+      {
+        "id": "q002_a4",
+        "text": "Decline and spend the day reading at home",
+        "traits": {
+          "spontaneity": 0.4,
+          "curiosity": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q003",
+    "question": "You get a free ticket to a surprise concert, but you have a deadline due tomorrow. What do you do?",
+    "answers": [
+      {
+        "id": "q003_a1",
+        "text": "Go to the concert and work on the deadline later",
+        "traits": {
+          "risk_taking": 0.8,
+          "spontaneity": 0.7
+        }
+      },
+      {
+        "id": "q003_a2",
+        "text": "Skip the concert and finish the work first",
+        "traits": {
+          "ambition": 0.7,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q003_a3",
+        "text": "Ask a friend to attend for you and send you the highlights",
+        "traits": {
+          "sociability": 0.6,
+          "creativity": 0.4
+        }
+      },
+      {
+        "id": "q003_a4",
+        "text": "Attend part of the concert, then pull an all‑night work session",
+        "traits": {
+          "adventure": 0.6,
+          "independence": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q004",
+    "question": "A stray dog follows you home. What’s your next move?",
+    "answers": [
+      {
+        "id": "q004_a1",
+        "text": "Invite it in, give it food, and look for its owner",
+        "traits": {
+          "empathy": 0.9,
+          "responsibility": 0.0
+        }
+      },
+      {
+        "id": "q004_a2",
+        "text": "Leave it outside and continue with your day",
+        "traits": {
+          "independence": 0.7,
+          "risk_taking": 0.3
+        }
+      },
+      {
+        "id": "q004_a3",
+        "text": "Take it to the nearest animal shelter",
+        "traits": {
+          "leadership": 0.5,
+          "sociability": 0.4
+        }
+      },
+      {
+        "id": "q004_a4",
+        "text": "Make a quick video of the dog and post it online",
+        "traits": {
+          "creativity": 0.6,
+          "spontaneity": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q005",
+    "question": "Your favorite coffee shop runs out of your usual drink. How do you react?",
+    "answers": [
+      {
+        "id": "q005_a1",
+        "text": "Try a completely new flavor on a whim",
+        "traits": {
+          "adventure": 0.7,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "id": "q005_a2",
+        "text": "Order the next closest thing and wait for your next visit",
+        "traits": {
+          "patience": 0.0,
+          "curiosity": 0.5
+        }
+      },
+      {
+        "id": "q005_a3",
+        "text": "Leave and go to a different café you’ve never been to",
+        "traits": {
+          "curiosity": 0.8,
+          "independence": 0.6
+        }
+      },
+      {
+        "id": "q005_a4",
+        "text": "Ask the barista for a recommendation and stick with it",
+        "traits": {
+          "sociability": 0.5,
+          "leadership": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q006",
+    "question": "You’re invited to a costume party with a “time travel” theme. What do you dress as?",
+    "answers": [
+      {
+        "id": "q006_a1",
+        "text": "A futuristic astronaut with LED accessories",
+        "traits": {
+          "creativity": 0.9,
+          "adventure": 0.5
+        }
+      },
+      {
+        "id": "q006_a2",
+        "text": "A Victorian inventor with goggles and a brass coat",
+        "traits": {
+          "curiosity": 0.8,
+          "leadership": 0.4
+        }
+      },
+      {
+        "id": "q006_a3",
+        "text": "A 1990s grunge rocker, because why not?",
+        "traits": {
+          "spontaneity": 0.7,
+          "sociability": 0.5
+        }
+      },
+      {
+        "id": "q006_a4",
+        "text": "A plain tourist with a camera, blending in",
+        "traits": {
+          "independence": 0.6,
+          "risk_taking": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q007",
+    "question": "A coworker needs help finishing a project, but you have a personal deadline. What’s your choice?",
+    "answers": [
+      {
+        "id": "q007_a1",
+        "text": "Pause your work and assist them right away",
+        "traits": {
+          "empathy": 0.8,
+          "leadership": 0.7
+        }
+      },
+      {
+        "id": "q007_a2",
+        "text": "Suggest they ask someone else while you focus on yours",
+        "traits": {
+          "independence": 0.7,
+          "ambition": 0.5
+        }
+      },
+      {
+        "id": "q007_a3",
+        "text": "Offer quick tips then return to your own deadline",
+        "traits": {
+          "creativity": 0.5,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "id": "q007_a4",
+        "text": "Negotiate a split of tasks so you both meet your goals",
+        "traits": {
+          "leadership": 0.6,
+          "sociability": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q008",
+    "question": "You receive a random invitation to join a flash‑mob dance in the park. How do you respond?",
+    "answers": [
+      {
+        "id": "q008_a1",
+        "text": "Show up, learn the moves, and join the fun",
+        "traits": {
+          "spontaneity": 0.9,
+          "sociability": 0.6
+        }
+      },
+      {
+        "id": "q008_a2",
+        "text": "Watch from a bench and enjoy the spectacle",
+        "traits": {
+          "curiosity": 0.6,
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q008_a3",
+        "text": "Decline and spend the afternoon reading a new novel",
+        "traits": {
+          "creativity": 0.5,
+          "ambition": 0.4
+        }
+      },
+      {
+        "id": "q008_a4",
+        "text": "Invite a few friends and turn it into a mini‑performance",
+        "traits": {
+          "leadership": 0.7,
+          "adventure": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q009",
+    "question": "Your phone battery is at 5% and you’re far from a charger. What’s your plan?",
+    "answers": [
+      {
+        "id": "q009_a1",
+        "text": "Find a nearby café and plug in while you sip a drink",
+        "traits": {
+          "sociability": 0.5,
+          "resourcefulness": 0.0
+        }
+      },
+      {
+        "id": "q009_a2",
+        "text": "Turn off everything and enjoy the unplugged moment",
+        "traits": {
+          "independence": 0.7,
+          "spontaneity": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "q010",
+    "question": "A sudden snowstorm forces your weekend plans to change. What do you do?",
+    "answers": [
+      {
+        "id": "q001_a1",
+        "text": "Grab a sled and hit the nearest hill",
+        "traits": {
+          "adventure": 0.9,
+          "spontaneity": 0.7
+        }
+      },
+      {
+        "id": "q001_a2",
+        "text": "Turn it into a cozy movie marathon at home",
+        "traits": {
+          "creativity": 0.6,
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q001_a3",
+        "text": "Call friends to organize a snowball tournament",
+        "traits": {
+          "sociability": 0.8,
+          "leadership": 0.6
+        }
+      },
+      {
+        "id": "q001_a4",
+        "text": "Use the time to finish a long‑awaited hobby project",
+        "traits": {
+          "curiosity": 0.7,
+          "ambition": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q011",
+    "question": "You find a wallet on the sidewalk with cash and an ID. How do you handle it?",
+    "answers": [
+      {
+        "id": "q002_a1",
+        "text": "Take it to the nearest police station",
+        "traits": {
+          "empathy": 0.8,
+          "responsibility": 0.6
+        }
+      },
+      {
+        "id": "q002_a2",
+        "text": "Return it directly to the address on the ID",
+        "traits": {
+          "empathy": 0.9,
+          "leadership": 0.4
+        }
+      },
+      {
+        "id": "q002_a3",
+        "text": "Keep the cash, but leave the wallet where it was",
+        "traits": {
+          "risk_taking": 0.7,
+          "independence": 0.6
+        }
+      },
+      {
+        "id": "q002_a4",
+        "text": "Use the cash for something fun and forget about it",
+        "traits": {
+          "spontaneity": 0.8,
+          "adventure": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q012",
+    "question": "A friend asks you to help move heavy furniture on short notice. Your response?",
+    "answers": [
+      {
+        "id": "q003_a1",
+        "text": "Agree gladly and bring snacks for everyone",
+        "traits": {
+          "sociability": 0.7,
+          "leadership": 0.6
+        }
+      },
+      {
+        "id": "q003_a2",
+        "text": "Decline politely, you have other plans",
+        "traits": {
+          "independence": 0.8,
+          "risk_taking": 0.3
+        }
+      },
+      {
+        "id": "q003_a3",
+        "text": "Offer to coordinate a moving schedule instead",
+        "traits": {
+          "leadership": 0.9,
+          "creativity": 0.5
+        }
+      },
+      {
+        "id": "q003_a4",
+        "text": "Suggest hiring professional movers and split the cost",
+        "traits": {
+          "ambition": 0.6,
+          "curiosity": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q013",
+    "question": "If you could instantly master any instrument, which would you pick?",
+    "answers": [
+      {
+        "id": "q004_a1",
+        "text": "Electric guitar for rock jams",
+        "traits": {
+          "creativity": 0.8,
+          "adventure": 0.6
+        }
+      },
+      {
+        "id": "q004_a2",
+        "text": "Piano for classical pieces",
+        "traits": {
+          "creativity": 0.9,
+          "curiosity": 0.5
+        }
+      },
+      {
+        "id": "q004_a3",
+        "text": "Drums to keep the beat alive",
+        "traits": {
+          "spontaneity": 0.7,
+          "risk_taking": 0.5
+        }
+      },
+      {
+        "id": "q004_a4",
+        "text": "Saxophone for smooth jazz vibes",
+        "traits": {
+          "creativity": 0.7,
+          "sociability": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "q014",
+    "question": "Your favorite app crashes right before you finish a project. What’s your move?",
+    "answers": [
+      {
+        "id": "q005_a1",
+        "text": "Switch to a backup tool and keep working",
+        "traits": {
+          "independence": 0.8,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "id": "q005_a2",
+        "text": "Take a short break and come back refreshed",
+        "traits": {
+          "spontaneity": 0.6,
+          "empathy": 0.5
+        }
+      },
+      {
+        "id": "q005_a3",
+        "text": "Ask a coworker for help and share the load",
+        "traits": {
+          "sociability": 0.7,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q005_a4",
+        "text": "Use the glitch as a chance to rethink the whole approach",
+        "traits": {
+          "creativity": 0.9,
+          "curiosity": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "q015",
+    "question": "A mysterious invitation arrives for a secret midnight picnic. Do you:",
+    "answers": [
+      {
+        "id": "q006_a1",
+        "text": "Accept and bring a quirky dish",
+        "traits": {
+          "adventure": 0.9,
+          "spontaneity": 0.8
+        }
+      },
+      {
+        "id": "q006_a2",
+        "text": "Decline, preferring a predictable evening",
+        "traits": {
+          "independence": 0.7,
+          "risk_taking": 0.2
+        }
+      },
+      {
+        "id": "q006_a3",
+        "text": "Invite a few friends to make it a group event",
+        "traits": {
+          "sociability": 0.9,
+          "leadership": 0.6
+        }
+      },
+      {
+        "id": "q006_a4",
+        "text": "Research the sender first to see if it’s safe",
+        "traits": {
+          "curiosity": 0.9,
+          "risk_taking": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q016",
+    "question": "You have a free afternoon with no obligations. How do you spend it?",
+    "answers": [
+      {
+        "id": "q007_a1",
+        "text": "Explore a new neighborhood on foot",
+        "traits": {
+          "adventure": 0.8,
+          "curiosity": 0.7
+        }
+      },
+      {
+        "id": "q007_a2",
+        "text": "Start a small DIY craft project",
+        "traits": {
+          "creativity": 0.9,
+          "spontaneity": 0.5
+        }
+      },
+      {
+        "id": "q007_a3",
+        "text": "Call a friend you haven’t spoken to in weeks",
+        "traits": {
+          "sociability": 0.8,
+          "empathy": 0.6
+        }
+      },
+      {
+        "id": "q007_a4",
+        "text": "Plan out your goals for the next month",
+        "traits": {
+          "ambition": 0.9,
+          "leadership": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q017",
+    "question": "A coworker needs help presenting a big pitch, but you’re swamped. What do you do?",
+    "answers": [
+      {
+        "id": "q008_a1",
+        "text": "Offer quick pointers and then focus on your tasks",
+        "traits": {
+          "leadership": 0.7,
+          "independence": 0.6
+        }
+      },
+      {
+        "id": "q008_a2",
+        "text": "Take a chunk of your work to free up time for them",
+        "traits": {
+          "sociability": 0.8,
+          "empathy": 0.7
+        }
+      },
+      {
+        "id": "q008_a3",
+        "text": "Suggest they rehearse with the team instead of you",
+        "traits": {
+          "creativity": 0.5,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "id": "q008_a4",
+        "text": "Decline, explaining you need to meet your own deadline",
+        "traits": {
+          "independence": 0.9,
+          "risk_taking": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q018",
+    "question": "You’re offered a surprise weekend getaway with no details. Your reaction?",
+    "answers": [
+      {
+        "id": "q009_a1",
+        "text": "Pack a bag and go, ready for anything",
+        "traits": {
+          "adventure": 0.9,
+          "spontaneity": 0.9
+        }
+      },
+      {
+        "id": "q009_a2",
+        "text": "Ask for a hint before deciding",
+        "traits": {
+          "curiosity": 0.8,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "id": "q009_a3",
+        "text": "Invite a few friends to join the mystery trip",
+        "traits": {
+          "sociability": 0.9,
+          "leadership": 0.6
+        }
+      },
+      {
+        "id": "q009_a4",
+        "text": "Politely decline, preferring a planned schedule",
+        "traits": {
+          "independence": 0.8,
+          "ambition": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q019",
+    "question": "A local charity needs volunteers for a one‑day event. You:",
+    "answers": [
+      {
+        "id": "q010_a1",
+        "text": "Sign up and take charge of a team",
+        "traits": {
+          "leadership": 0.9,
+          "empathy": 0.7
+        }
+      },
+      {
+        "id": "q010_a2",
+        "text": "Join as a participant and meet new people",
+        "traits": {
+          "sociability": 0.8,
+          "curiosity": 0.5
+        }
+      },
+      {
+        "id": "q010_a3",
+        "text": "Help behind the scenes with logistics",
+        "traits": {
+          "independence": 0.7,
+          "creativity": 0.6
+        }
+      },
+      {
+        "id": "q010_a4",
+        "text": "Donate money instead of time",
+        "traits": {
+          "risk_taking": 0.3,
+          "ambition": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q020",
+    "question": "Your favorite TV series ends abruptly. What’s your next move?",
+    "answers": [
+      {
+        "id": "q011_a1",
+        "text": "Write fan theories to fill the gaps",
+        "traits": {
+          "creativity": 0.9,
+          "curiosity": 0.8
+        }
+      },
+      {
+        "id": "q011_a2",
+        "text": "Start a new show without looking back",
+        "traits": {
+          "spontaneity": 0.7,
+          "adventure": 0.5
+        }
+      },
+      {
+        "id": "q011_a3",
+        "text": "Discuss the ending with online fans",
+        "traits": {
+          "sociability": 0.8,
+          "empathy": 0.6
+        }
+      },
+      {
+        "id": "q011_a4",
+        "text": "Create a personal blog reviewing the series",
+        "traits": {
+          "ambition": 0.6,
+          "leadership": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q021",
+    "question": "You’re given a blank canvas and any supplies. What do you create?",
+    "answers": [
+      {
+        "id": "q012_a1",
+        "text": "A vibrant abstract painting",
+        "traits": {
+          "creativity": 0.9,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "id": "q012_a2",
+        "text": "A detailed map of an imaginary world",
+        "traits": {
+          "curiosity": 0.8,
+          "adventure": 0.5
+        }
+      },
+      {
+        "id": "q012_a3",
+        "text": "A collage of personal photos and mementos",
+        "traits": {
+          "empathy": 0.7,
+          "nostalgia": 0.5
+        }
+      },
+      {
+        "id": "q012_a4",
+        "text": "A bold statement piece about future tech",
+        "traits": {
+          "ambition": 0.8,
+          "creativity": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "q022",
+    "question": "A random stranger asks for directions you don’t know. How do you respond?",
+    "answers": [
+      {
+        "id": "q013_a1",
+        "text": "Admit you’re unsure and suggest checking a map",
+        "traits": {
+          "empathy": 0.8,
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q013_a2",
+        "text": "Guess confidently and hope it’s right",
+        "traits": {
+          "risk_taking": 0.7,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "id": "q013_a3",
+        "text": "Offer to walk with them to find the spot",
+        "traits": {
+          "sociability": 0.7,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q013_a4",
+        "text": "Ask a nearby shopkeeper for help together",
+        "traits": {
+          "curiosity": 0.6,
+          "collaboration": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q023",
+    "question": "You receive a mysterious puzzle box with no instructions. What’s your first step?",
+    "answers": [
+      {
+        "id": "q014_a1",
+        "text": "Start solving it right away, no matter the difficulty",
+        "traits": {
+          "curiosity": 0.9,
+          "risk_taking": 0.6
+        }
+      },
+      {
+        "id": "q014_a2",
+        "text": "Research online to see if anyone’s opened similar boxes",
+        "traits": {
+          "curiosity": 0.8,
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q014_a3",
+        "text": "Invite friends over for a group solving session",
+        "traits": {
+          "sociability": 0.8,
+          "leadership": 0.6
+        }
+      },
+      {
+        "id": "q014_a4",
+        "text": "Set it aside as a decorative piece for now",
+        "traits": {
+          "spontaneity": 0.4,
+          "ambition": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q024",
+    "question": "A sudden power outage hits your city. How do you spend the evening?",
+    "answers": [
+      {
+        "id": "q015_a1",
+        "text": "Light candles and tell stories with family",
+        "traits": {
+          "empathy": 0.8,
+          "sociability": 0.6
+        }
+      },
+      {
+        "id": "q015_a2",
+        "text": "Grab a flashlight and go for a night walk",
+        "traits": {
+          "adventure": 0.9,
+          "spontaneity": 0.7
+        }
+      },
+      {
+        "id": "q015_a3",
+        "text": "Play board games with roommates",
+        "traits": {
+          "sociability": 0.9,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q015_a4",
+        "text": "Use the time to brainstorm a new project idea",
+        "traits": {
+          "creativity": 0.9,
+          "ambition": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "q025",
+    "question": "You find an old camera with film inside. What do you do?",
+    "answers": [
+      {
+        "id": "q016_a1",
+        "text": "Develop the film to see what’s inside",
+        "traits": {
+          "curiosity": 0.9,
+          "risk_taking": 0.5
+        }
+      },
+      {
+        "id": "q016_a2",
+        "text": "Take it on a photo walk to capture new moments",
+        "traits": {
+          "adventure": 0.8,
+          "creativity": 0.7
+        }
+      },
+      {
+        "id": "q016_a3",
+        "text": "Gift it to a friend who loves vintage gear",
+        "traits": {
+          "empathy": 0.7,
+          "sociability": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "q026",
+    "question": "You find a mysterious locked box on your doorstep. What do you do?",
+    "answers": [
+      {
+        "id": "q001_a1",
+        "text": "Try to pick the lock out of curiosity",
+        "traits": {
+          "curiosity": 0.9,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "id": "q001_a2",
+        "text": "Look for a note or clue about its owner",
+        "traits": {
+          "empathy": 0.6,
+          "sociability": 0.5
+        }
+      },
+      {
+        "id": "q001_a3",
+        "text": "Leave it alone and focus on your day",
+        "traits": {
+          "independence": 0.7
+        }
+      },
+      {
+        "id": "q001_a4",
+        "text": "Open it right away, no matter what",
+        "traits": {
+          "adventure": 0.8,
+          "spontaneity": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "q027",
+    "question": "A coworker asks you to cover their shift on short notice. How do you respond?",
+    "answers": [
+      {
+        "id": "q002_a1",
+        "text": "Agree, it's a chance to help and learn",
+        "traits": {
+          "empathy": 0.8,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q002_a2",
+        "text": "Suggest they find someone else, you have plans",
+        "traits": {
+          "independence": 0.6,
+          "risk_taking": 0.3
+        }
+      },
+      {
+        "id": "q002_a3",
+        "text": "Offer to swap another day later",
+        "traits": {
+          "sociability": 0.6,
+          "creativity": 0.4
+        }
+      },
+      {
+        "id": "q002_a4",
+        "text": "Take the shift and use the extra time for a personal project",
+        "traits": {
+          "ambition": 0.7,
+          "spontaneity": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q028",
+    "question": "You have an unexpected free afternoon. Which activity appeals most?",
+    "answers": [
+      {
+        "id": "q003_a1",
+        "text": "Explore a hidden part of the city you’ve never seen",
+        "traits": {
+          "adventure": 0.9,
+          "curiosity": 0.8
+        }
+      },
+      {
+        "id": "q003_a2",
+        "text": "Start a small DIY craft you’ve been thinking about",
+        "traits": {
+          "creativity": 0.9,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "id": "q003_a3",
+        "text": "Call a friend and plan an impromptu meetup",
+        "traits": {
+          "sociability": 0.8,
+          "empathy": 0.5
+        }
+      },
+      {
+        "id": "q003_a4",
+        "text": "Read up on a topic you know nothing about",
+        "traits": {
+          "curiosity": 0.9,
+          "independence": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q029",
+    "question": "A stranger drops a wallet in a coffee shop. What’s your move?",
+    "answers": [
+      {
+        "id": "q004_a1",
+        "text": "Pick it up and try to find the owner yourself",
+        "traits": {
+          "empathy": 0.9,
+          "leadership": 0.4
+        }
+      },
+      {
+        "id": "q004_a2",
+        "text": "Hand it to the barista and let them handle it",
+        "traits": {
+          "sociability": 0.6
+        }
+      },
+      {
+        "id": "q004_a3",
+        "text": "Leave it; someone else will probably notice",
+        "traits": {
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q004_a4",
+        "text": "Take the cash, keep the wallet, and feel guilty",
+        "traits": {
+          "risk_taking": 0.7,
+          "ambition": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q030",
+    "question": "You can instantly master any musical instrument. Which do you choose?",
+    "answers": [
+      {
+        "id": "q005_a1",
+        "text": "A classic piano for versatile expression",
+        "traits": {
+          "creativity": 0.8,
+          "ambition": 0.6
+        }
+      },
+      {
+        "id": "q005_a2",
+        "text": "A drum set to keep the energy high",
+        "traits": {
+          "adventure": 0.5,
+          "sociability": 0.7
+        }
+      },
+      {
+        "id": "q005_a3",
+        "text": "A violin for delicate, emotive pieces",
+        "traits": {
+          "empathy": 0.7,
+          "curiosity": 0.5
+        }
+      },
+      {
+        "id": "q005_a4",
+        "text": "A electric guitar for rock‑star vibes",
+        "traits": {
+          "risk_taking": 0.6,
+          "spontaneity": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "q031",
+    "question": "Your favorite TV series ends abruptly. How do you cope?",
+    "answers": [
+      {
+        "id": "q006_a1",
+        "text": "Write fan fiction to give it a proper conclusion",
+        "traits": {
+          "creativity": 0.9,
+          "spontaneity": 0.5
+        }
+      },
+      {
+        "id": "q006_a2",
+        "text": "Start a discussion thread and debate theories",
+        "traits": {
+          "sociability": 0.8,
+          "leadership": 0.4
+        }
+      },
+      {
+        "id": "q006_a3",
+        "text": "Binge‑watch a completely different genre",
+        "traits": {
+          "adventure": 0.6,
+          "curiosity": 0.7
+        }
+      },
+      {
+        "id": "q006_a4",
+        "text": "Accept it and move on, focusing on real life",
+        "traits": {
+          "independence": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "q032",
+    "question": "You receive a ticket for a free cooking class. What’s your reaction?",
+    "answers": [
+      {
+        "id": "q007_a1",
+        "text": "Sign up and experiment with new recipes",
+        "traits": {
+          "creativity": 0.9,
+          "adventure": 0.5
+        }
+      },
+      {
+        "id": "q007_a2",
+        "text": "Invite a friend to join for a fun night",
+        "traits": {
+          "sociability": 0.8,
+          "empathy": 0.4
+        }
+      },
+      {
+        "id": "q007_a3",
+        "text": "Decline; you prefer ordering takeout",
+        "traits": {
+          "independence": 0.6
+        }
+      },
+      {
+        "id": "q007_a4",
+        "text": "Take the class and aim to become a chef someday",
+        "traits": {
+          "ambition": 0.8,
+          "leadership": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q033",
+    "question": "A sudden rainstorm forces you inside a museum. What do you explore?",
+    "answers": [
+      {
+        "id": "q008_a1",
+        "text": "The modern art wing for unexpected inspiration",
+        "traits": {
+          "creativity": 0.8,
+          "curiosity": 0.7
+        }
+      },
+      {
+        "id": "q008_a2",
+        "text": "The dinosaur exhibit because it’s awe‑inspiring",
+        "traits": {
+          "adventure": 0.6,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "id": "q008_a3",
+        "text": "The quiet reading room to relax",
+        "traits": {
+          "independence": 0.7,
+          "empathy": 0.5
+        }
+      },
+      {
+        "id": "q008_a4",
+        "text": "Gather a group and start a spontaneous scavenger hunt",
+        "traits": {
+          "leadership": 0.6,
+          "spontaneity": 0.9
+        }
+      }
+    ]
+  },
+  {
+    "id": "q034",
+    "question": "You have to choose a sidekick for a treasure hunt. Who do you pick?",
+    "answers": [
+      {
+        "id": "q009_a1",
+        "text": "The witty friend who can talk their way out of trouble",
+        "traits": {
+          "sociability": 0.8,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q009_a2",
+        "text": "The tech‑savvy sibling who can hack maps",
+        "traits": {
+          "creativity": 0.7,
+          "ambition": 0.6
+        }
+      },
+      {
+        "id": "q009_a3",
+        "text": "The calm neighbor who stays focused under pressure",
+        "traits": {
+          "empathy": 0.6,
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q009_a4",
+        "text": "A complete stranger you just met, for pure surprise",
+        "traits": {
+          "risk_taking": 0.9,
+          "spontaneity": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "q035",
+    "question": "Your phone battery hits 5% while you’re lost in a new city. What’s your plan?",
+    "answers": [
+      {
+        "id": "q010_a1",
+        "text": "Find a café, charge, and ask locals for directions",
+        "traits": {
+          "sociability": 0.7,
+          "curiosity": 0.5
+        }
+      },
+      {
+        "id": "q010_a2",
+        "text": "Use a paper map you bought earlier, trusting your instincts",
+        "traits": {
+          "independence": 0.8,
+          "adventure": 0.6
+        }
+      },
+      {
+        "id": "q010_a3",
+        "text": "Call a friend for help, even if it costs minutes",
+        "traits": {
+          "empathy": 0.6,
+          "leadership": 0.4
+        }
+      },
+      {
+        "id": "q010_a4",
+        "text": "Take a chance and wander until you spot something familiar",
+        "traits": {
+          "risk_taking": 0.9,
+          "spontaneity": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "q036",
+    "question": "A charity asks you to donate time or money. What do you choose?",
+    "answers": [
+      {
+        "id": "q011_a1",
+        "text": "Volunteer a few hours to see the impact first",
+        "traits": {
+          "empathy": 0.9,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q011_a2",
+        "text": "Give a modest cash gift and keep your schedule clear",
+        "traits": {
+          "ambition": 0.5,
+          "independence": 0.6
+        }
+      },
+      {
+        "id": "q011_a3",
+        "text": "Split both—donate some money and a short shift",
+        "traits": {
+          "sociability": 0.7,
+          "creativity": 0.4
+        }
+      },
+      {
+        "id": "q011_a4",
+        "text": "Decline; you prefer focusing on personal projects",
+        "traits": {
+          "independence": 0.8,
+          "risk_taking": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q037",
+    "question": "You’re offered a role in a startup with high upside but no salary for six months. What’s your reaction?",
+    "answers": [
+      {
+        "id": "q012_a1",
+        "text": "Jump in—big risk, big reward",
+        "traits": {
+          "risk_taking": 0.9,
+          "ambition": 0.8
+        }
+      },
+      {
+        "id": "q012_a2",
+        "text": "Ask for a part‑time arrangement to keep a safety net",
+        "traits": {
+          "leadership": 0.6,
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q012_a3",
+        "text": "Decline; you value financial stability",
+        "traits": {
+          "independence": 0.7
+        }
+      },
+      {
+        "id": "q012_a4",
+        "text": "Take the role but set a clear exit plan",
+        "traits": {
+          "creativity": 0.6,
+          "leadership": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q038",
+    "question": "A random lottery ticket wins a small prize. How do you celebrate?",
+    "answers": [
+      {
+        "id": "q013_a1",
+        "text": "Treat friends to a dinner you all enjoy",
+        "traits": {
+          "sociability": 0.9,
+          "empathy": 0.6
+        }
+      },
+      {
+        "id": "q013_a2",
+        "text": "Buy a quirky gadget you’ve been eyeing",
+        "traits": {
+          "curiosity": 0.7,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "id": "q013_a3",
+        "text": "Invest it in a personal learning course",
+        "traits": {
+          "ambition": 0.8,
+          "creativity": 0.5
+        }
+      },
+      {
+        "id": "q013_a4",
+        "text": "Save it for an unexpected future adventure",
+        "traits": {
+          "adventure": 0.8,
+          "risk_taking": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q039",
+    "question": "Your favorite band is playing a surprise show nearby. You have a prior commitment. What do you do?",
+    "answers": [
+      {
+        "id": "q014_a1",
+        "text": "Skip the commitment to see the show live",
+        "traits": {
+          "spontaneity": 0.9,
+          "risk_taking": 0.6
+        }
+      },
+      {
+        "id": "q014_a2",
+        "text": "Attend the show and apologize later",
+        "traits": {
+          "sociability": 0.7,
+          "leadership": 0.4
+        }
+      },
+      {
+        "id": "q014_a3",
+        "text": "Stick to the commitment and watch a recording later",
+        "traits": {
+          "independence": 0.8
+        }
+      },
+      {
+        "id": "q014_a4",
+        "text": "Invite the person you’re meeting to the concert instead",
+        "traits": {
+          "empathy": 0.7,
+          "creativity": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q040",
+    "question": "You discover a hidden talent for solving puzzles quickly. How do you apply it?",
+    "answers": [
+      {
+        "id": "q015_a1",
+        "text": "Enter puzzle competitions for trophies",
+        "traits": {
+          "ambition": 0.8,
+          "risk_taking": 0.5
+        }
+      },
+      {
+        "id": "q015_a2",
+        "text": "Volunteer to design escape rooms for friends",
+        "traits": {
+          "creativity": 0.9,
+          "sociability": 0.6
+        }
+      },
+      {
+        "id": "q015_a3",
+        "text": "Use it to streamline work processes at your job",
+        "traits": {
+          "leadership": 0.7,
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q015_a4",
+        "text": "Keep it as a fun personal hobby",
+        "traits": {
+          "spontaneity": 0.6,
+          "curiosity": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "q041",
+    "question": "A sudden power outage hits your neighborhood during a movie night. What’s your move?",
+    "answers": [
+      {
+        "id": "q016_a1",
+        "text": "Gather candles and continue the movie outdoors",
+        "traits": {
+          "spontaneity": 0.8,
+          "adventure": 0.6
+        }
+      },
+      {
+        "id": "q016_a2",
+        "text": "Switch to a board game and invite neighbors over",
+        "traits": {
+          "sociability": 0.9,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q016_a3",
+        "text": "Take the chance to finally read that book you’ve been putting off",
+        "traits": {
+          "curiosity": 0.8,
+          "independence": 0.7
+        }
+      },
+      {
+        "id": "q016_a4",
+        "text": "Call the electricity company and wait it out",
+        "traits": {
+          "independence": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "q042",
+    "question": "You can spend a weekend learning any skill for free. Which do you pick?",
+    "answers": [
+      {
+        "id": "q017_a1",
+        "text": "Digital illustration to express ideas visually",
+        "traits": {
+          "creativity": 0.9,
+          "curiosity": 0.6
+        }
+      },
+      {
+        "id": "q017_a2",
+        "text": "Public speaking to boost confidence",
+        "traits": {
+          "leadership": 0.8,
+          "sociability": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q043",
+    "question": "You find a mysterious key on the sidewalk. What do you do?",
+    "answers": [
+      {
+        "id": "q001_a1",
+        "text": "Look for the lock it might open",
+        "traits": {
+          "curiosity": 0.8,
+          "adventure": 0.6
+        }
+      },
+      {
+        "id": "q001_a2",
+        "text": "Keep it as a souvenir",
+        "traits": {
+          "independence": 0.7,
+          "spontaneity": 0.5
+        }
+      },
+      {
+        "id": "q001_a3",
+        "text": "Take it to a lost-and-found office",
+        "traits": {
+          "empathy": 0.6,
+          "sociability": 0.4
+        }
+      },
+      {
+        "id": "q001_a4",
+        "text": "Throw it away and keep walking",
+        "traits": {
+          "risk_taking": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q044",
+    "question": "Your favorite band is playing a surprise show nearby. How do you respond?",
+    "answers": [
+      {
+        "id": "q002_a1",
+        "text": "Buy tickets immediately, even if pricey",
+        "traits": {
+          "ambition": 0.6,
+          "risk_taking": 0.5
+        }
+      },
+      {
+        "id": "q002_a2",
+        "text": "Invite a group of friends to go together",
+        "traits": {
+          "sociability": 0.8,
+          "leadership": 0.4
+        }
+      },
+      {
+        "id": "q002_a3",
+        "text": "Watch a live stream instead",
+        "traits": {
+          "independence": 0.7,
+          "curiosity": 0.4
+        }
+      },
+      {
+        "id": "q002_a4",
+        "text": "Skip it and read a new book",
+        "traits": {
+          "creativity": 0.6,
+          "spontaneity": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q045",
+    "question": "A coworker asks for help on a project you’re not familiar with. What’s your move?",
+    "answers": [
+      {
+        "id": "q003_a1",
+        "text": "Offer to learn quickly and assist",
+        "traits": {
+          "leadership": 0.7,
+          "curiosity": 0.6
+        }
+      },
+      {
+        "id": "q003_a2",
+        "text": "Suggest they ask someone else",
+        "traits": {
+          "independence": 0.6
+        }
+      },
+      {
+        "id": "q003_a3",
+        "text": "Take it as a chance to explore a new skill",
+        "traits": {
+          "adventure": 0.5,
+          "creativity": 0.5
+        }
+      },
+      {
+        "id": "q003_a4",
+        "text": "Decline politely, focusing on your own tasks",
+        "traits": {
+          "risk_taking": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q046",
+    "question": "You have an extra weekend with no plans. Which sounds most appealing?",
+    "answers": [
+      {
+        "id": "q004_a1",
+        "text": "Backpack to a nearby town and wander",
+        "traits": {
+          "adventure": 0.9,
+          "spontaneity": 0.7
+        }
+      },
+      {
+        "id": "q004_a2",
+        "text": "Start a small DIY project at home",
+        "traits": {
+          "creativity": 0.8,
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q004_a3",
+        "text": "Visit a friend you haven’t seen in months",
+        "traits": {
+          "sociability": 0.9,
+          "empathy": 0.6
+        }
+      },
+      {
+        "id": "q004_a4",
+        "text": "Enroll in an online course you’ve been curious about",
+        "traits": {
+          "curiosity": 0.85,
+          "ambition": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q047",
+    "question": "A charity asks for volunteers to help at a community kitchen. Your reaction?",
+    "answers": [
+      {
+        "id": "q005_a1",
+        "text": "Sign up right away",
+        "traits": {
+          "empathy": 0.9,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q005_a2",
+        "text": "Donate money instead of time",
+        "traits": {
+          "ambition": 0.4
+        }
+      },
+      {
+        "id": "q005_a3",
+        "text": "Ask if you can organize a food drive",
+        "traits": {
+          "leadership": 0.8,
+          "creativity": 0.5
+        }
+      },
+      {
+        "id": "q005_a4",
+        "text": "Pass, you have other commitments",
+        "traits": {
+          "independence": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "q048",
+    "question": "Your phone battery dies while you’re out. What’s your next step?",
+    "answers": [
+      {
+        "id": "q006_a1",
+        "text": "Find a café and charge it while you relax",
+        "traits": {
+          "spontaneity": 0.6,
+          "sociability": 0.5
+        }
+      },
+      {
+        "id": "q006_a2",
+        "text": "Borrow a charger from a stranger",
+        "traits": {
+          "risk_taking": 0.5,
+          "curiosity": 0.4
+        }
+      },
+      {
+        "id": "q006_a3",
+        "text": "Use the downtime to people‑watch",
+        "traits": {
+          "creativity": 0.5,
+          "curiosity": 0.6
+        }
+      },
+      {
+        "id": "q006_a4",
+        "text": "Head home to avoid being offline",
+        "traits": {
+          "independence": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "q049",
+    "question": "A friend wants to start a band but can’t play an instrument. What do you suggest?",
+    "answers": [
+      {
+        "id": "q007_a1",
+        "text": "Teach them a simple rhythm on a drum pad",
+        "traits": {
+          "leadership": 0.6,
+          "creativity": 0.7
+        }
+      },
+      {
+        "id": "q007_a2",
+        "text": "Help them find a vocalist role",
+        "traits": {
+          "empathy": 0.6,
+          "sociability": 0.5
+        }
+      },
+      {
+        "id": "q007_a3",
+        "text": "Encourage them to learn a new instrument",
+        "traits": {
+          "curiosity": 0.8,
+          "ambition": 0.5
+        }
+      },
+      {
+        "id": "q007_a4",
+        "text": "Suggest they be the manager instead",
+        "traits": {
+          "leadership": 0.7,
+          "independence": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q050",
+    "question": "You receive a random free pass for a mystery activity. Choose:",
+    "answers": [
+      {
+        "id": "q008_a1",
+        "text": "Skydiving session",
+        "traits": {
+          "risk_taking": 0.9,
+          "adventure": 0.8
+        }
+      },
+      {
+        "id": "q008_a2",
+        "text": "Cooking class with a famous chef",
+        "traits": {
+          "creativity": 0.85,
+          "curiosity": 0.6
+        }
+      },
+      {
+        "id": "q008_a3",
+        "text": "Volunteering at an animal shelter",
+        "traits": {
+          "empathy": 0.9,
+          "sociability": 0.5
+        }
+      },
+      {
+        "id": "q008_a4",
+        "text": "VIP backstage tour at a theater",
+        "traits": {
+          "spontaneity": 0.7,
+          "leadership": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q051",
+    "question": "A sudden rainstorm forces you to change your outdoor plans. What’s your reaction?",
+    "answers": [
+      {
+        "id": "q009_a1",
+        "text": "Find a museum and explore it",
+        "traits": {
+          "curiosity": 0.7,
+          "creativity": 0.5
+        }
+      },
+      {
+        "id": "q009_a2",
+        "text": "Invite friends over for a game night",
+        "traits": {
+          "sociability": 0.8,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "id": "q009_a3",
+        "text": "Take a walk in the rain and enjoy it",
+        "traits": {
+          "adventure": 0.8,
+          "risk_taking": 0.5
+        }
+      },
+      {
+        "id": "q009_a4",
+        "text": "Use the time to finish a personal project",
+        "traits": {
+          "independence": 0.7,
+          "ambition": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q052",
+    "question": "You’re offered a promotion that requires relocating to another country. What do you consider first?",
+    "answers": [
+      {
+        "id": "q010_a1",
+        "text": "Career growth and new challenges",
+        "traits": {
+          "ambition": 0.9,
+          "leadership": 0.6
+        }
+      },
+      {
+        "id": "q010_a2",
+        "text": "Experiencing a different culture",
+        "traits": {
+          "curiosity": 0.85,
+          "adventure": 0.7
+        }
+      },
+      {
+        "id": "q010_a3",
+        "text": "How it will affect my relationships",
+        "traits": {
+          "empathy": 0.8,
+          "sociability": 0.5
+        }
+      },
+      {
+        "id": "q010_a4",
+        "text": "Whether I can handle the uncertainty",
+        "traits": {
+          "risk_taking": 0.6,
+          "independence": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "q053",
+    "question": "Your favorite app adds a new feature that you don’t need. What do you do?",
+    "answers": [
+      {
+        "id": "q011_a1",
+        "text": "Explore it just for fun",
+        "traits": {
+          "curiosity": 0.8,
+          "spontaneity": 0.5
+        }
+      },
+      {
+        "id": "q011_a2",
+        "text": "Ignore it and keep using the old version",
+        "traits": {
+          "independence": 0.6
+        }
+      },
+      {
+        "id": "q011_a3",
+        "text": "Give feedback suggesting improvements",
+        "traits": {
+          "leadership": 0.5,
+          "creativity": 0.4
+        }
+      },
+      {
+        "id": "q011_a4",
+        "text": "Uninstall the app altogether",
+        "traits": {
+          "risk_taking": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q054",
+    "question": "A stranger drops a stack of papers in the hallway. Your instinct?",
+    "answers": [
+      {
+        "id": "q012_a1",
+        "text": "Help them gather everything quickly",
+        "traits": {
+          "empathy": 0.9,
+          "sociability": 0.6
+        }
+      },
+      {
+        "id": "q012_a2",
+        "text": "Smile and let them handle it",
+        "traits": {
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q012_a3",
+        "text": "Pick up the papers and make a joke",
+        "traits": {
+          "spontaneity": 0.7,
+          "creativity": 0.5
+        }
+      },
+      {
+        "id": "q012_a4",
+        "text": "Walk away, you’re in a hurry",
+        "traits": {
+          "risk_taking": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q055",
+    "question": "You have a chance to design a new board game. What’s your main focus?",
+    "answers": [
+      {
+        "id": "q013_a1",
+        "text": "Innovative mechanics that surprise players",
+        "traits": {
+          "creativity": 0.9,
+          "risk_taking": 0.6
+        }
+      },
+      {
+        "id": "q013_a2",
+        "text": "Theme that tells an emotional story",
+        "traits": {
+          "empathy": 0.8,
+          "curiosity": 0.5
+        }
+      },
+      {
+        "id": "q013_a3",
+        "text": "Competitive balance for serious gamers",
+        "traits": {
+          "ambition": 0.7,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q013_a4",
+        "text": "Quick, easy rules for casual fun",
+        "traits": {
+          "spontaneity": 0.8,
+          "sociability": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "q056",
+    "question": "A random online quiz tells you you’re a perfect match for a desert island crew. What role do you claim?",
+    "answers": [
+      {
+        "id": "q014_a1",
+        "text": "Navigator using stars",
+        "traits": {
+          "curiosity": 0.8,
+          "leadership": 0.5
+        }
+      },
+      {
+        "id": "q014_a2",
+        "text": "Chef to keep morale high",
+        "traits": {
+          "creativity": 0.7,
+          "empathy": 0.6
+        }
+      },
+      {
+        "id": "q014_a3",
+        "text": "Scout for fresh water and food",
+        "traits": {
+          "adventure": 0.85,
+          "risk_taking": 0.6
+        }
+      },
+      {
+        "id": "q014_a4",
+        "text": "Storyteller to entertain the group",
+        "traits": {
+          "creativity": 0.8,
+          "spontaneity": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "q057",
+    "question": "Your favorite author releases a surprise novella. How do you react?",
+    "answers": [
+      {
+        "id": "q015_a1",
+        "text": "Read it immediately, even if late at night",
+        "traits": {
+          "curiosity": 0.9,
+          "spontaneity": 0.5
+        }
+      },
+      {
+        "id": "q015_a2",
+        "text": "Save it for a relaxed weekend",
+        "traits": {
+          "independence": 0.6
+        }
+      },
+      {
+        "id": "q015_a3",
+        "text": "Discuss it with a book club right away",
+        "traits": {
+          "sociability": 0.85,
+          "empathy": 0.4
+        }
+      },
+      {
+        "id": "q015_a4",
+        "text": "Write fan fiction inspired by it",
+        "traits": {
+          "creativity": 0.9,
+          "ambition": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q058",
+    "question": "You’re invited to a costume party with a ‘future tech’ theme. What do you wear?",
+    "answers": [
+      {
+        "id": "q016_a1",
+        "text": "DIY LED‑lit outfit",
+        "traits": {
+          "creativity": 0.85,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "id": "q016_a2",
+        "text": "Classic sleek suit with subtle gadgets",
+        "traits": {
+          "leadership": 0.5,
+          "independence": 0.5
+        }
+      },
+      {
+        "id": "q016_a3",
+        "text": "Funny homemade robot costume",
+        "traits": {
+          "adventure": 0.7,
+          "risk_taking": 0.5
+        }
+      },
+      {
+        "id": "q016_a4",
+        "text": "Skip it and watch the party online",
+        "traits": {
+          "independence": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "q059",
+    "question": "A colleague suggests a risky but potentially huge client pitch. Your stance?",
+    "answers": [
+      {
+        "id": "q017_a1",
+        "text": "Lead the pitch, confident in the plan",
+        "traits": {
+          "leadership": 0.9,
+          "risk_taking": 0.7
+        }
+      },
+      {
+        "id": "q017_a2",
+        "text": "Offer to research the client thoroughly first",
+        "traits": {
+          "curiosity": 0.8,
+          "ambition": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "question": "Your code works perfectly and you have no idea why. What do you do?",
+    "answers": [
+      {
+        "text": "Leave it untouched, it’s a miracle.",
+        "traits": {
+          "curiosity": 0.7,
+          "risk_taking": 0.3
+        }
+      },
+      {
+        "text": "Investigate every line to understand it.",
+        "traits": {
+          "curiosity": 0.9,
+          "creativity": 0.4
+        }
+      },
+      {
+        "text": "Commit it immediately before it changes its mind.",
+        "traits": {
+          "risk_taking": 0.8,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "text": "Tell the team you fixed it and move on.",
+        "traits": {
+          "leadership": 0.6,
+          "sociability": 0.5
+        }
+      }
+    ],
+    "id": "q060"
+  },
+  {
+    "question": "It’s Friday at 4:55 PM and someone says “tiny change”. What’s your reaction?",
+    "answers": [
+      {
+        "text": "Roll my eyes and finish the day early.",
+        "traits": {
+          "spontaneity": 0.8,
+          "independence": 0.6
+        }
+      },
+      {
+        "text": "Ask for details and knock it out quickly.",
+        "traits": {
+          "leadership": 0.7,
+          "ambition": 0.5
+        }
+      },
+      {
+        "text": "Suggest postponing it to Monday.",
+        "traits": {
+          "risk_taking": 0.4,
+          "sociability": 0.7
+        }
+      },
+      {
+        "text": "Make a joke about it and keep working.",
+        "traits": {
+          "creativity": 0.6,
+          "sociability": 0.6
+        }
+      }
+    ],
+    "id": "q061"
+  },
+  {
+    "question": "Your laptop has 37 browser tabs open. How do you deal with it?",
+    "answers": [
+      {
+        "text": "Close half and bookmark the rest.",
+        "traits": {
+          "organization": 0.0,
+          "curiosity": 0.0
+        }
+      },
+      {
+        "text": "Leave them all open, you might need them later.",
+        "traits": {
+          "risk_taking": 0.5,
+          "independence": 0.6
+        }
+      },
+      {
+        "text": "Create a tidy folder of saved links and shut down the browser.",
+        "traits": {
+          "creativity": 0.7,
+          "ambition": 0.4
+        }
+      },
+      {
+        "text": "Ask a colleague to help you prioritize and close some.",
+        "traits": {
+          "sociability": 0.8,
+          "empathy": 0.5
+        }
+      }
+    ],
+    "id": "q062"
+  },
+  {
+    "question": "You accidentally close the terminal where you had the important command. What now?",
+    "answers": [
+      {
+        "text": "Re‑open it and type the command again without thinking.",
+        "traits": {
+          "spontaneity": 0.8,
+          "risk_taking": 0.6
+        }
+      },
+      {
+        "text": "Take a breath, check the history, and re‑run carefully.",
+        "traits": {
+          "curiosity": 0.7,
+          "leadership": 0.5
+        }
+      },
+      {
+        "text": "Blame the UI and file a bug report.",
+        "traits": {
+          "creativity": 0.6,
+          "sociability": 0.4
+        }
+      },
+      {
+        "text": "Ask a teammate if they saw what you ran.",
+        "traits": {
+          "empathy": 0.7,
+          "sociability": 0.6
+        }
+      }
+    ],
+    "id": "q063"
+  },
+  {
+    "question": "Your code works locally but mysteriously breaks on someone else’s machine. First move?",
+    "answers": [
+      {
+        "text": "Reproduce their environment step by step.",
+        "traits": {
+          "curiosity": 0.8,
+          "leadership": 0.5
+        }
+      },
+      {
+        "text": "Send them a funny meme about “it works on my machine”.",
+        "traits": {
+          "sociability": 0.7,
+          "creativity": 0.5
+        }
+      },
+      {
+        "text": "Assume it’s their fault and move on.",
+        "traits": {
+          "risk_taking": 0.4,
+          "independence": 0.6
+        }
+      },
+      {
+        "text": "Write a quick guide to set up the exact same environment.",
+        "traits": {
+          "ambition": 0.6,
+          "empathy": 0.5
+        }
+      }
+    ],
+    "id": "q064"
+  },
+  {
+    "question": "Someone says “it works on my machine.” What happens next?",
+    "answers": [
+      {
+        "text": "You all laugh and keep coding.",
+        "traits": {
+          "sociability": 0.8,
+          "spontaneity": 0.5
+        }
+      },
+      {
+        "text": "You dive into their setup to find the gap.",
+        "traits": {
+          "curiosity": 0.9,
+          "leadership": 0.6
+        }
+      },
+      {
+        "text": "You suggest a shared Docker container for consistency.",
+        "traits": {
+          "creativity": 0.7,
+          "ambition": 0.5
+        }
+      },
+      {
+        "text": "You shrug and note it as a “known issue”.",
+        "traits": {
+          "risk_taking": 0.4,
+          "independence": 0.6
+        }
+      }
+    ],
+    "id": "q065"
+  },
+  {
+    "question": "You finally fix a bug that took three hours. What do you do?",
+    "answers": [
+      {
+        "text": "Celebrate with a coffee and a meme share.",
+        "traits": {
+          "sociability": 0.7,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "text": "Document the fix thoroughly for future readers.",
+        "traits": {
+          "leadership": 0.7,
+          "curiosity": 0.5
+        }
+      },
+      {
+        "text": "Push the fix and move on to the next challenge.",
+        "traits": {
+          "ambition": 0.8,
+          "risk_taking": 0.5
+        }
+      },
+      {
+        "text": "Tell the team you’re now a bug‑whisperer.",
+        "traits": {
+          "creativity": 0.6,
+          "sociability": 0.5
+        }
+      }
+    ],
+    "id": "q066"
+  },
+  {
+    "question": "You open an old project and find code you wrote two years ago. Your thought?",
+    "answers": [
+      {
+        "text": "Cringe and delete everything you don’t need.",
+        "traits": {
+          "risk_taking": 0.5,
+          "independence": 0.6
+        }
+      },
+      {
+        "text": "Study it to see how far you’ve grown.",
+        "traits": {
+          "curiosity": 0.9,
+          "creativity": 0.4
+        }
+      },
+      {
+        "text": "Show it to a friend for a nostalgic laugh.",
+        "traits": {
+          "sociability": 0.8,
+          "empathy": 0.4
+        }
+      },
+      {
+        "text": "Refactor it immediately for modern standards.",
+        "traits": {
+          "ambition": 0.7,
+          "leadership": 0.5
+        }
+      }
+    ],
+    "id": "q067"
+  },
+  {
+    "question": "Your AI coding assistant generates something that works on the first try. Your response?",
+    "answers": [
+      {
+        "text": "Pat yourself on the back and keep the AI as a secret weapon.",
+        "traits": {
+          "spontaneity": 0.7,
+          "ambition": 0.6
+        }
+      },
+      {
+        "text": "Ask the AI why it chose that solution.",
+        "traits": {
+          "curiosity": 0.9,
+          "creativity": 0.5
+        }
+      },
+      {
+        "text": "Share the result with the team as a cool trick.",
+        "traits": {
+          "sociability": 0.8,
+          "leadership": 0.4
+        }
+      },
+      {
+        "text": "Double‑check the code just in case it’s a fluke.",
+        "traits": {
+          "risk_taking": 0.4,
+          "leadership": 0.5
+        }
+      }
+    ],
+    "id": "q068"
+  },
+  {
+    "question": "Your AI assistant confidently gives you completely wrong code. What do you do?",
+    "answers": [
+      {
+        "text": "Roll your eyes and rewrite it yourself.",
+        "traits": {
+          "independence": 0.7,
+          "risk_taking": 0.5
+        }
+      },
+      {
+        "text": "Ask the AI to explain its reasoning.",
+        "traits": {
+          "curiosity": 0.9,
+          "creativity": 0.4
+        }
+      },
+      {
+        "text": "Turn it into a joke for the next stand‑up.",
+        "traits": {
+          "sociability": 0.8,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "text": "Use it as a learning example for the whole team.",
+        "traits": {
+          "leadership": 0.7,
+          "empathy": 0.5
+        }
+      }
+    ],
+    "id": "q069"
+  },
+  {
+    "question": "You have one task left before you can relax, but a “quick meeting” appears. Your choice?",
+    "answers": [
+      {
+        "text": "Skip the meeting and finish the task fast.",
+        "traits": {
+          "risk_taking": 0.8,
+          "independence": 0.6
+        }
+      },
+      {
+        "text": "Attend the meeting, then tackle the task with fresh eyes.",
+        "traits": {
+          "sociability": 0.7,
+          "leadership": 0.5
+        }
+      },
+      {
+        "text": "Suggest moving the meeting to after you’re done.",
+        "traits": {
+          "creativity": 0.6,
+          "ambition": 0.5
+        }
+      },
+      {
+        "text": "Combine both: present your progress during the meeting.",
+        "traits": {
+          "leadership": 0.7,
+          "curiosity": 0.4
+        }
+      }
+    ],
+    "id": "q070"
+  },
+  {
+    "question": "Your internet goes down five minutes before an important meeting. How react?",
+    "answers": [
+      {
+        "text": "Improvise a quick phone call and keep going.",
+        "traits": {
+          "spontaneity": 0.8,
+          "leadership": 0.5
+        }
+      },
+      {
+        "text": "Apologize, reschedule, and use the time to prep better.",
+        "traits": {
+          "empathy": 0.8,
+          "ambition": 0.4
+        }
+      },
+      {
+        "text": "Blame the ISP and make a meme about it later.",
+        "traits": {
+          "sociability": 0.7,
+          "creativity": 0.5
+        }
+      },
+      {
+        "text": "Use the silence to brainstorm new ideas for the project.",
+        "traits": {
+          "curiosity": 0.9,
+          "creativity": 0.6
+        }
+      }
+    ],
+    "id": "q071"
+  },
+  {
+    "question": "You’re at a coffee shop and a stranger asks for your Wi‑Fi password. What do you do?",
+    "answers": [
+      {
+        "text": "Politely decline and protect your network.",
+        "traits": {
+          "independence": 0.7,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "text": "Share it with a smile, hoping for a friendly chat.",
+        "traits": {
+          "sociability": 0.8,
+          "empathy": 0.6
+        }
+      },
+      {
+        "text": "Make up a funny password and see if they notice.",
+        "traits": {
+          "creativity": 0.7,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "text": "Offer to help them find a nearby free hotspot instead.",
+        "traits": {
+          "empathy": 0.9,
+          "curiosity": 0.5
+        }
+      }
+    ],
+    "id": "q072"
+  },
+  {
+    "question": "A friend invites you to a spontaneous road trip this weekend. Your reply?",
+    "answers": [
+      {
+        "text": "Count me in! Pack the snacks!",
+        "traits": {
+          "adventure": 0.9,
+          "spontaneity": 0.8
+        }
+      },
+      {
+        "text": "I need to check work deadlines first.",
+        "traits": {
+          "responsibility": 0.0,
+          "ambition": 0.5
+        }
+      },
+      {
+        "text": "Maybe next time, I’m not feeling adventurous now.",
+        "traits": {
+          "independence": 0.6,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "text": "Suggest a virtual road‑trip game instead.",
+        "traits": {
+          "creativity": 0.7,
+          "sociability": 0.5
+        }
+      }
+    ],
+    "id": "q073"
+  },
+  {
+    "question": "You find a stray puppy on your way home. What’s your first move?",
+    "answers": [
+      {
+        "text": "Pick it up and take it to a shelter.",
+        "traits": {
+          "empathy": 0.9,
+          "leadership": 0.5
+        }
+      },
+      {
+        "text": "Give it some water, then continue walking.",
+        "traits": {
+          "independence": 0.7,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "text": "Post a photo on social media to find the owner.",
+        "traits": {
+          "sociability": 0.8,
+          "curiosity": 0.6
+        }
+      },
+      {
+        "text": "Play with it for a bit before deciding what to do.",
+        "traits": {
+          "spontaneity": 0.7,
+          "adventure": 0.5
+        }
+      }
+    ],
+    "id": "q074"
+  },
+  {
+    "question": "A coworker asks for help on a project you know nothing about. How do you respond?",
+    "answers": [
+      {
+        "text": "Offer to learn together and dive in.",
+        "traits": {
+          "leadership": 0.7,
+          "curiosity": 0.8
+        }
+      },
+      {
+        "text": "Politely decline, focusing on your own tasks.",
+        "traits": {
+          "independence": 0.7,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "text": "Suggest they ask someone else more experienced.",
+        "traits": {
+          "sociability": 0.6,
+          "empathy": 0.5
+        }
+      },
+      {
+        "text": "Take a quick online tutorial and give a hand.",
+        "traits": {
+          "creativity": 0.6,
+          "ambition": 0.5
+        }
+      }
+    ],
+    "id": "q075"
+  },
+  {
+    "question": "You have a day off but the weather forecast predicts a sudden storm. What’s your plan?",
+    "answers": [
+      {
+        "text": "Grab an umbrella and explore the city anyway.",
+        "traits": {
+          "adventure": 0.8,
+          "spontaneity": 0.7
+        }
+      },
+      {
+        "text": "Stay home, binge‑watch a series, and enjoy the rain.",
+        "traits": {
+          "creativity": 0.6,
+          "risk_taking": 0.3
+        }
+      },
+      {
+        "text": "Invite friends over for a board‑game marathon.",
+        "traits": {
+          "sociability": 0.9,
+          "empathy": 0.6
+        }
+      },
+      {
+        "text": "Use the time to start a new hobby you’ve been curious about.",
+        "traits": {
+          "curiosity": 0.9,
+          "ambition": 0.5
+        }
+      }
+    ],
+    "id": "q076"
+  },
+  {
+    "question": "Your code works perfectly after you changed nothing. What do you do?",
+    "answers": [
+      {
+        "text": "Leave it alone and hope the magic stays.",
+        "traits": {
+          "curiosity": 0.7,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "text": "Open the logs and try to understand the mystery.",
+        "traits": {
+          "curiosity": 0.9,
+          "creativity": 0.5
+        }
+      },
+      {
+        "text": "Commit immediately before it decides to misbehave.",
+        "traits": {
+          "ambition": 0.6,
+          "leadership": 0.5
+        }
+      },
+      {
+        "text": "Announce the miracle in the channel and enjoy the applause.",
+        "traits": {
+          "sociability": 0.8,
+          "spontaneity": 0.6
+        }
+      }
+    ],
+    "id": "q077"
+  },
+  {
+    "question": "It's Friday at 4:55 PM and someone says “tiny change”. How do you react?",
+    "answers": [
+      {
+        "text": "Grab a coffee, finish the change, and call it a day.",
+        "traits": {
+          "ambition": 0.7,
+          "leadership": 0.6
+        }
+      },
+      {
+        "text": "Ask for clarification, then push it to Monday.",
+        "traits": {
+          "curiosity": 0.8,
+          "independence": 0.5
+        }
+      },
+      {
+        "text": "Suggest a quick stand‑up to discuss the impact.",
+        "traits": {
+          "sociability": 0.7,
+          "empathy": 0.5
+        }
+      },
+      {
+        "text": "Make a joke about “tiny” and hope it disappears.",
+        "traits": {
+          "spontaneity": 0.9,
+          "creativity": 0.6
+        }
+      }
+    ],
+    "id": "q078"
+  },
+  {
+    "question": "Your browser has 37 tabs open. What’s your plan?",
+    "answers": [
+      {
+        "text": "Bookmark everything, close all, and start fresh.",
+        "traits": {
+          "creativity": 0.6,
+          "risk_taking": 0.3
+        }
+      },
+      {
+        "text": "Spend the next hour triaging each tab.",
+        "traits": {
+          "curiosity": 0.8,
+          "ambition": 0.5
+        }
+      },
+      {
+        "text": "Open a new window and keep the chaos alive.",
+        "traits": {
+          "spontaneity": 0.9,
+          "adventure": 0.4
+        }
+      },
+      {
+        "text": "Ask a coworker for a “tab‑audit” session.",
+        "traits": {
+          "sociability": 0.8,
+          "empathy": 0.6
+        }
+      }
+    ],
+    "id": "q079"
+  },
+  {
+    "question": "You have 14 terminal tabs and can’t remember what any are for. What’s your move?",
+    "answers": [
+      {
+        "text": "Close the oldest half and hope the rest are safe.",
+        "traits": {
+          "risk_taking": 0.7,
+          "independence": 0.5
+        }
+      },
+      {
+        "text": "Write a quick note on each and organize them.",
+        "traits": {
+          "creativity": 0.6,
+          "leadership": 0.5
+        }
+      },
+      {
+        "text": "Ask a teammate to guess the purpose of each.",
+        "traits": {
+          "sociability": 0.7,
+          "empathy": 0.5
+        }
+      },
+      {
+        "text": "Just keep typing “ls” and hope something pops up.",
+        "traits": {
+          "spontaneity": 0.8,
+          "adventure": 0.4
+        }
+      }
+    ],
+    "id": "q080"
+  },
+  {
+    "question": "You accidentally close the terminal where a critical command was running. What do you do?",
+    "answers": [
+      {
+        "text": "Restart the command immediately, no questions asked.",
+        "traits": {
+          "leadership": 0.7,
+          "ambition": 0.6
+        }
+      },
+      {
+        "text": "Check the logs to see if it already finished.",
+        "traits": {
+          "curiosity": 0.9,
+          "creativity": 0.5
+        }
+      },
+      {
+        "text": "Blame the “evil” window manager and move on.",
+        "traits": {
+          "spontaneity": 0.8,
+          "sociability": 0.4
+        }
+      },
+      {
+        "text": "Ask a colleague if they noticed any output.",
+        "traits": {
+          "empathy": 0.7,
+          "sociability": 0.6
+        }
+      }
+    ],
+    "id": "q081"
+  },
+  {
+    "question": "Your code works locally but breaks on a teammate’s machine. What’s your first step?",
+    "answers": [
+      {
+        "text": "Swap laptops and try to reproduce the issue.",
+        "traits": {
+          "adventure": 0.5,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "text": "Ask for their environment details and compare configs.",
+        "traits": {
+          "curiosity": 0.9,
+          "empathy": 0.5
+        }
+      },
+      {
+        "text": "Write a quick script that logs everything for later debugging.",
+        "traits": {
+          "leadership": 0.6,
+          "creativity": 0.6
+        }
+      },
+      {
+        "text": "Assume it’s a typo on their side and move on.",
+        "traits": {
+          "spontaneity": 0.7,
+          "independence": 0.5
+        }
+      }
+    ],
+    "id": "q082"
+  },
+  {
+    "question": "Someone declares “It works on my machine!” How do you respond?",
+    "answers": [
+      {
+        "text": "Organize a quick “environment sync” meeting.",
+        "traits": {
+          "leadership": 0.8,
+          "sociability": 0.6
+        }
+      },
+      {
+        "text": "Suggest adding a CI step to catch hidden issues.",
+        "traits": {
+          "creativity": 0.7,
+          "ambition": 0.5
+        }
+      },
+      {
+        "text": "Playfully ask if their machine runs on unicorn dust.",
+        "traits": {
+          "spontaneity": 0.9,
+          "sociability": 0.5
+        }
+      },
+      {
+        "text": "Take a screenshot and add it to the “Mystery” folder.",
+        "traits": {
+          "curiosity": 0.8,
+          "adventure": 0.4
+        }
+      }
+    ],
+    "id": "q083"
+  },
+  {
+    "question": "You finally squash a bug that took three hours. What do you do next?",
+    "answers": [
+      {
+        "text": "Celebrate with a short break and a snack.",
+        "traits": {
+          "sociability": 0.7,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "text": "Write a detailed post‑mortem for the team.",
+        "traits": {
+          "leadership": 0.8,
+          "creativity": 0.5
+        }
+      },
+      {
+        "text": "Search for a similar bug in the repo just for fun.",
+        "traits": {
+          "curiosity": 0.9,
+          "adventure": 0.3
+        }
+      },
+      {
+        "text": "Start brainstorming the next “impossible” feature.",
+        "traits": {
+          "ambition": 0.7,
+          "creativity": 0.8
+        }
+      }
+    ],
+    "id": "q084"
+  },
+  {
+    "question": "You open an old project and spot code you wrote two years ago. How do you feel?",
+    "answers": [
+      {
+        "text": "Nostalgic and proud of how far you’ve come.",
+        "traits": {
+          "empathy": 0.6,
+          "creativity": 0.5
+        }
+      },
+      {
+        "text": "Embarrassed and ready to refactor everything.",
+        "traits": {
+          "curiosity": 0.8,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "text": "Excited to reuse a hidden gem you forgot about.",
+        "traits": {
+          "adventure": 0.5,
+          "creativity": 0.7
+        }
+      },
+      {
+        "text": "Indifferent—just another file in the archive.",
+        "traits": {
+          "independence": 0.7,
+          "spontaneity": 0.4
+        }
+      }
+    ],
+    "id": "q085"
+  },
+  {
+    "question": "Your AI coding assistant writes a perfect function on the first try. What’s your reaction?",
+    "answers": [
+      {
+        "text": "Give it a high‑five and keep the momentum.",
+        "traits": {
+          "sociability": 0.6,
+          "spontaneity": 0.8
+        }
+      },
+      {
+        "text": "Inspect every line to learn its tricks.",
+        "traits": {
+          "curiosity": 0.9,
+          "creativity": 0.5
+        }
+      },
+      {
+        "text": "Ask it to write the whole module for you.",
+        "traits": {
+          "risk_taking": 0.7,
+          "adventure": 0.5
+        }
+      },
+      {
+        "text": "Write a blog post bragging about the AI’s brilliance.",
+        "traits": {
+          "sociability": 0.8,
+          "ambition": 0.6
+        }
+      }
+    ],
+    "id": "q086"
+  },
+  {
+    "question": "Your AI assistant confidently serves you wrong code. How do you handle it?",
+    "answers": [
+      {
+        "text": "Politely point out the mistake and ask for a fix.",
+        "traits": {
+          "empathy": 0.7,
+          "leadership": 0.5
+        }
+      },
+      {
+        "text": "Laugh, blame the AI, and try a different prompt.",
+        "traits": {
+          "spontaneity": 0.9,
+          "creativity": 0.6
+        }
+      },
+      {
+        "text": "Dive deep to understand why it went wrong.",
+        "traits": {
+          "curiosity": 0.9,
+          "risk_taking": 0.4
+        }
+      },
+      {
+        "text": "Switch to a human colleague for that part.",
+        "traits": {
+          "sociability": 0.8,
+          "independence": 0.5
+        }
+      }
+    ],
+    "id": "q087"
+  },
+  {
+    "question": "A “quick meeting” pops up just as you’re about to finish your last task. What do you do?",
+    "answers": [
+      {
+        "text": "Join the meeting, then sprint to wrap up afterward.",
+        "traits": {
+          "leadership": 0.7,
+          "ambition": 0.6
+        }
+      },
+      {
+        "text": "Politely ask to postpone it and finish the task first.",
+        "traits": {
+          "empathy": 0.8,
+          "independence": 0.5
+        }
+      }
+    ],
+    "id": "q088"
+  }
+]

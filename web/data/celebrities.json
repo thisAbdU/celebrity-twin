@@ -1,0 +1,290 @@
+[
+  {
+    "id": "celebrity_001",
+    "name": "Billie Eilish",
+    "description": "Quietly sharp, creatively restless, and allergic to doing things the ordinary way.",
+    "avatar": "hoodie",
+    "traits": {
+      "creativity": 0.95,
+      "independence": 0.9,
+      "curiosity": 0.75,
+      "empathy": 0.7,
+      "spontaneity": 0.55,
+      "sociability": 0.35,
+      "adventure": 0.4,
+      "leadership": 0.45,
+      "ambition": 0.7,
+      "risk_taking": 0.6
+    }
+  },
+  {
+    "id": "celebrity_002",
+    "name": "Dwayne Johnson",
+    "description": "Big energy, bigger grit — shows up, lifts others, and treats effort like a sport.",
+    "avatar": "strong",
+    "traits": {
+      "leadership": 0.95,
+      "ambition": 0.95,
+      "sociability": 0.85,
+      "empathy": 0.7,
+      "adventure": 0.75,
+      "risk_taking": 0.65,
+      "independence": 0.55,
+      "curiosity": 0.45,
+      "creativity": 0.4,
+      "spontaneity": 0.5
+    }
+  },
+  {
+    "id": "celebrity_003",
+    "name": "Zendaya",
+    "description": "Poised, adaptable, and quietly ambitious — reads the room and still does it their way.",
+    "avatar": "star",
+    "traits": {
+      "empathy": 0.85,
+      "creativity": 0.8,
+      "ambition": 0.85,
+      "sociability": 0.7,
+      "leadership": 0.65,
+      "curiosity": 0.7,
+      "independence": 0.6,
+      "spontaneity": 0.45,
+      "adventure": 0.5,
+      "risk_taking": 0.4
+    }
+  },
+  {
+    "id": "celebrity_004",
+    "name": "Elon Musk",
+    "description": "Idea-obsessed and allergic to \"impossible\" — always building the next wild leap.",
+    "avatar": "rocket",
+    "traits": {
+      "ambition": 0.98,
+      "curiosity": 0.9,
+      "risk_taking": 0.95,
+      "independence": 0.9,
+      "creativity": 0.75,
+      "leadership": 0.7,
+      "adventure": 0.8,
+      "spontaneity": 0.7,
+      "sociability": 0.35,
+      "empathy": 0.25
+    }
+  },
+  {
+    "id": "celebrity_005",
+    "name": "Rihanna",
+    "description": "Bold taste, cool confidence, and zero interest in shrinking to fit the box.",
+    "avatar": "crown",
+    "traits": {
+      "creativity": 0.9,
+      "independence": 0.95,
+      "ambition": 0.9,
+      "leadership": 0.8,
+      "risk_taking": 0.75,
+      "spontaneity": 0.7,
+      "sociability": 0.6,
+      "adventure": 0.55,
+      "curiosity": 0.55,
+      "empathy": 0.5
+    }
+  },
+  {
+    "id": "celebrity_006",
+    "name": "Keanu Reeves",
+    "description": "Low-key legend energy — kind, grounded, and somehow still mysterious.",
+    "avatar": "calm",
+    "traits": {
+      "empathy": 0.95,
+      "independence": 0.8,
+      "curiosity": 0.7,
+      "adventure": 0.65,
+      "sociability": 0.45,
+      "creativity": 0.55,
+      "leadership": 0.4,
+      "ambition": 0.4,
+      "spontaneity": 0.35,
+      "risk_taking": 0.45
+    }
+  },
+  {
+    "id": "celebrity_007",
+    "name": "Serena Williams",
+    "description": "Competitive fire wrapped in focus — turns pressure into a personal playground.",
+    "avatar": "trophy",
+    "traits": {
+      "ambition": 0.98,
+      "leadership": 0.9,
+      "independence": 0.85,
+      "risk_taking": 0.7,
+      "sociability": 0.55,
+      "empathy": 0.55,
+      "adventure": 0.6,
+      "curiosity": 0.5,
+      "creativity": 0.45,
+      "spontaneity": 0.4
+    }
+  },
+  {
+    "id": "celebrity_008",
+    "name": "Donald Glover",
+    "description": "Genre-hopping creative brain who treats life like an experimental album.",
+    "avatar": "artist",
+    "traits": {
+      "creativity": 0.98,
+      "curiosity": 0.9,
+      "independence": 0.8,
+      "spontaneity": 0.75,
+      "adventure": 0.6,
+      "sociability": 0.55,
+      "ambition": 0.7,
+      "leadership": 0.5,
+      "empathy": 0.6,
+      "risk_taking": 0.65
+    }
+  },
+  {
+    "id": "celebrity_009",
+    "name": "Oprah Winfrey",
+    "description": "Warm spotlight energy — connects deeply, lifts people up, and asks the real questions.",
+    "avatar": "host",
+    "traits": {
+      "empathy": 0.98,
+      "sociability": 0.95,
+      "leadership": 0.9,
+      "curiosity": 0.85,
+      "ambition": 0.85,
+      "creativity": 0.55,
+      "independence": 0.6,
+      "adventure": 0.4,
+      "spontaneity": 0.45,
+      "risk_taking": 0.4
+    }
+  },
+  {
+    "id": "celebrity_010",
+    "name": "Ryan Reynolds",
+    "description": "Chaotic charm with a wink — quick wit, social spark, and zero fear of the bit.",
+    "avatar": "smile",
+    "traits": {
+      "sociability": 0.95,
+      "spontaneity": 0.9,
+      "creativity": 0.8,
+      "curiosity": 0.65,
+      "leadership": 0.55,
+      "empathy": 0.6,
+      "ambition": 0.7,
+      "independence": 0.55,
+      "adventure": 0.65,
+      "risk_taking": 0.7
+    }
+  },
+  {
+    "id": "celebrity_011",
+    "name": "Greta Thunberg",
+    "description": "Principled and uncompromising — speaks up even when the room goes quiet.",
+    "avatar": "voice",
+    "traits": {
+      "leadership": 0.9,
+      "independence": 0.95,
+      "ambition": 0.85,
+      "curiosity": 0.75,
+      "empathy": 0.8,
+      "risk_taking": 0.7,
+      "sociability": 0.45,
+      "creativity": 0.4,
+      "adventure": 0.5,
+      "spontaneity": 0.35
+    }
+  },
+  {
+    "id": "celebrity_012",
+    "name": "Jack Black",
+    "description": "Maximum enthusiasm unlocked — loud joy, silly courage, and all-in commitment.",
+    "avatar": "rock",
+    "traits": {
+      "spontaneity": 0.95,
+      "sociability": 0.9,
+      "creativity": 0.85,
+      "adventure": 0.8,
+      "risk_taking": 0.75,
+      "empathy": 0.65,
+      "curiosity": 0.6,
+      "leadership": 0.55,
+      "ambition": 0.6,
+      "independence": 0.5
+    }
+  },
+  {
+    "id": "celebrity_013",
+    "name": "Simone Biles",
+    "description": "Precision under pressure — brave enough to push limits and wise enough to own limits.",
+    "avatar": "gymnast",
+    "traits": {
+      "ambition": 0.95,
+      "independence": 0.85,
+      "leadership": 0.75,
+      "risk_taking": 0.8,
+      "empathy": 0.7,
+      "curiosity": 0.55,
+      "adventure": 0.7,
+      "sociability": 0.5,
+      "creativity": 0.45,
+      "spontaneity": 0.4
+    }
+  },
+  {
+    "id": "celebrity_014",
+    "name": "Timothée Chalamet",
+    "description": "Soft-spoken intensity — curious, expressive, and drawn to strange new roles.",
+    "avatar": "poet",
+    "traits": {
+      "creativity": 0.9,
+      "curiosity": 0.85,
+      "empathy": 0.75,
+      "independence": 0.7,
+      "adventure": 0.55,
+      "spontaneity": 0.5,
+      "sociability": 0.55,
+      "ambition": 0.75,
+      "leadership": 0.4,
+      "risk_taking": 0.45
+    }
+  },
+  {
+    "id": "celebrity_015",
+    "name": "Doja Cat",
+    "description": "Unpredictable creative chaos — reinvents on impulse and refuses a single lane.",
+    "avatar": "spark",
+    "traits": {
+      "creativity": 0.95,
+      "spontaneity": 0.95,
+      "independence": 0.9,
+      "risk_taking": 0.85,
+      "curiosity": 0.7,
+      "sociability": 0.5,
+      "adventure": 0.65,
+      "ambition": 0.7,
+      "leadership": 0.4,
+      "empathy": 0.4
+    }
+  },
+  {
+    "id": "celebrity_016",
+    "name": "David Attenborough",
+    "description": "Wonder-first explorer — notices tiny details and treats the world like a living museum.",
+    "avatar": "nature",
+    "traits": {
+      "curiosity": 0.98,
+      "empathy": 0.9,
+      "adventure": 0.85,
+      "independence": 0.65,
+      "creativity": 0.55,
+      "sociability": 0.5,
+      "leadership": 0.55,
+      "ambition": 0.5,
+      "spontaneity": 0.35,
+      "risk_taking": 0.4
+    }
+  }
+]

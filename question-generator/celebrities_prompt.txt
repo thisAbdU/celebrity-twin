@@ -1,0 +1,568 @@
+You are creating the celebrity/personality database for a fun web game called:
+
+"Celebrity Twin"
+
+The game asks players a series of fun questions and eventually matches them with a famous person whose GAME TRAIT PROFILE resembles the player's answers.
+
+This is entertainment.
+
+It is NOT a scientific personality test and the trait values below are fictional game mechanics, not psychological measurements of real people.
+
+==================================================
+GOAL
+==================================================
+
+Generate EXACTLY {{BATCH_SIZE}} famous people for the game.
+
+The people should be recognizable, interesting, inspiring, historically significant, or culturally meaningful.
+
+The selection should focus primarily on people known for GOOD, MEANINGFUL, POSITIVE, CONSTRUCTIVE, CREATIVE, COURAGEOUS, or BENEFICIAL work.
+
+The list should feel fun rather than like a boring encyclopedia.
+
+and immediately have an idea of why that person is interesting.
+
+==================================================
+IMPORTANT MORAL / CONTENT FILTER
+==================================================
+
+Do NOT include people whose public identity or major body of work is strongly associated with:
+
+- alcohol
+- gambling
+- drugs
+- pornography
+- explicit sexual content
+- sexually explicit entertainment
+- glorifying substance abuse
+- criminal activity
+- organized crime
+- terrorism
+- extremist movements
+- hate movements
+- exploitation
+- serious abuse
+- Musician
+- behavior that would make the person inappropriate as a positive/fun role model for a general-audience game
+
+Do not include someone merely because they are famous.
+
+Fame alone is NOT enough.
+
+Prioritize people who are known for achievements such as:
+
+- science
+- medicine
+- mathematics
+- engineering
+- invention
+- education
+- humanitarian work
+- philanthropy
+- exploration
+- literature
+- positive artistic contribution
+- athletics
+- entrepreneurship
+- innovation
+- courage
+- leadership
+- creativity
+- perseverance
+- service to others
+- defending education
+- helping communities
+- advancing knowledge
+- improving people's lives
+
+Do not portray anyone as morally perfect.
+
+The game is simply selecting people based on interesting documented achievements and a fictional trait profile.
+
+==================================================
+NO POLITICAL FIGURES
+==================================================
+
+Avoid active politicians and political campaign figures.
+
+Avoid people whose primary fame comes from partisan politics.
+
+Historical figures may be included if their primary significance is clearly related to:
+
+- science
+- education
+- mathematics
+- invention
+- exploration
+- literature
+- humanitarian work
+- medicine
+- philosophy
+- positive cultural contribution
+
+Do not turn the celebrity pool into a political/history quiz.
+
+==================================================
+HISTORICAL + MODERN BALANCE
+==================================================
+
+Create a mixture of:
+
+- historical figures
+- modern celebrities
+- scientists
+- inventors
+- athletes
+- writers
+- explorers
+- educators
+- entrepreneurs
+- humanitarian figures
+
+Approximately:
+
+20–30% historical figures
+20–30% scientists / inventors / thinkers
+15–20% athletes
+15–20% writers / entertainers with positive or meaningful bodies of work
+10–15% humanitarian / education / service figures
+10–15% entrepreneurs / innovators
+
+Categories may overlap.
+
+Do not force exact percentages if doing so would make the list worse.
+
+==================================================
+GLOBAL DIVERSITY
+==================================================
+
+Do not make the list mostly American celebrities.
+
+Include people from different:
+
+- countries
+- cultures
+- historical periods
+- professions
+- backgrounds
+
+Include meaningful representation from:
+
+- Africa
+- Asia
+- Europe
+- North America
+- South America
+- Middle East
+
+Include several historically important scientists, scholars, inventors, or thinkers where appropriate.
+
+Do not include someone simply because they are from a particular culture.
+
+Their actual contribution should be relevant.
+
+==================================================
+MAKE IT FUN
+==================================================
+
+This is a GAME.
+
+Do not generate boring descriptions such as:
+
+"Marie Curie was a Polish-French physicist and chemist."
+
+Instead create short, playful descriptions that communicate the personality archetype the game is using.
+
+Good:
+
+"Relentlessly curious, stubbornly brilliant, and apparently incapable of leaving a mystery alone."
+
+Better:
+
+"Curiosity set to maximum — keeps digging until the mystery finally gives up."
+
+The descriptions should be:
+
+- short
+- memorable
+- playful
+- positive
+- suitable for a game result screen
+
+Maximum approximately 20 words.
+
+Do not make unsupported claims about someone's private personality.
+
+Base the archetype on their public work, achievements, and widely documented public image.
+
+==================================================
+TRAIT SYSTEM
+==================================================
+
+Use ONLY these 10 traits:
+
+- adventure
+- ambition
+- creativity
+- curiosity
+- independence
+- sociability
+- empathy
+- risk_taking
+- leadership
+- spontaneity
+
+Every celebrity MUST have ALL 10 traits.
+
+Every trait must be a number between:
+
+0.0 and 1.0
+
+Use decimals such as:
+
+0.25
+0.40
+0.65
+0.80
+0.95
+
+Avoid giving everyone extremely high scores.
+
+There should be meaningful differences between people.
+
+==================================================
+TRAIT INTERPRETATION
+==================================================
+
+Use these definitions:
+
+adventure
+= willingness to explore, experience new things, travel, experiment, or step outside familiar territory
+
+ambition
+= drive toward achievement, excellence, mastery, or large goals
+
+creativity
+= originality, artistic thinking, invention, unconventional ideas
+
+curiosity
+= desire to learn, investigate, understand, discover, and ask questions
+
+independence
+= tendency to think, decide, or work according to one's own direction
+
+sociability
+= public engagement, communication, connection with people, charisma, collaboration
+
+empathy
+= compassion, concern for others, understanding, service, humanitarian orientation
+
+risk_taking
+= willingness to attempt difficult, uncertain, or unconventional things
+
+leadership
+= ability or tendency to inspire, organize, guide, influence, or rally others
+
+spontaneity
+= tendency toward improvisation, experimentation, unpredictability, or acting on the moment
+
+==================================================
+TRAIT BALANCE
+==================================================
+
+Do NOT make every famous person:
+
+0.9 ambition
+0.9 creativity
+0.9 leadership
+
+That makes the matching system useless.
+
+Give each person:
+
+- 2–3 defining strengths
+- 2–4 moderately strong traits
+- several lower traits
+
+Different people should occupy different areas of the personality space.
+
+For example:
+
+A scientist may have:
+
+curiosity: 0.98
+creativity: 0.85
+independence: 0.80
+adventure: 0.60
+sociability: 0.45
+
+while a charismatic performer may have:
+
+sociability: 0.95
+creativity: 0.90
+spontaneity: 0.90
+leadership: 0.65
+curiosity: 0.60
+
+Do NOT use identical trait patterns for multiple people.
+
+==================================================
+AVATAR
+==================================================
+
+Each person needs a short avatar archetype.
+
+Examples:
+
+- scientist
+- inventor
+- explorer
+- athlete
+- writer
+- leader
+- teacher
+- mathematician
+- doctor
+- engineer
+- astronaut
+- champion
+- humanitarian
+- philosopher
+- inventor
+- adventurer
+- storyteller
+- creator
+- scholar
+- pioneer
+
+The avatar is NOT an image URL.
+
+It is simply a keyword that the frontend can later map to a pixel-art avatar.
+
+Keep it lowercase.
+
+Use one word where possible.
+
+Examples:
+
+"scientist"
+"rocket"
+"artist"
+"champion"
+"explorer"
+
+==================================================
+AVOID REPETITION
+==================================================
+
+Do not generate 10 people who all represent:
+
+"ambitious leader"
+
+Do not generate 10 scientists who have nearly identical trait profiles.
+
+The player should be able to match with noticeably different archetypes.
+
+Examples of distinct archetypes:
+
+THE INVENTOR
+"The person who cannot leave a weird problem alone."
+
+THE EXPLORER
+"The person who sees an unknown place and immediately wants to go there."
+
+THE CHAMPION
+"The person who turns pressure into fuel."
+
+THE CREATIVE CHAOS
+"The person whose strangest idea somehow becomes their best one."
+
+THE HUMANITARIAN
+"The person who naturally looks for ways to help others."
+
+THE SCHOLAR
+"The person who will spend three hours researching a question nobody else cared about."
+
+THE BUILDER
+"The person who sees an idea and immediately wants to make it real."
+
+THE PERFORMER
+"The person who turns every room into a stage."
+
+These are examples of archetypes, not fixed categories.
+
+==================================================
+POSSIBLE PEOPLE
+==================================================
+
+Use your knowledge to select appropriate people.
+
+Possible examples include people such as:
+
+* Nikola Tesla
+* Michael Faraday
+* Rachel Carson
+* Alexander Fleming
+* Jane Goodall
+* Edmund Hillary
+* Valentina Tereshkova
+* Nadia Comăneci
+* Ayrton Senna
+* Wayne Gretzky
+* Arthur Ashe
+* Simone Biles
+* Kofi Annan
+* Eleanor Roosevelt
+* Thich Nhat Hanh
+* Harriet Tubman
+* Stanley Kubrick
+* Jim Henson
+* Freddie Mercury
+* Toni Morrison
+* Yo-Yo Ma
+* Frida Kahlo
+
+These are ONLY examples.
+
+You may replace them with better-fitting people.
+
+Do not blindly include everyone listed above.
+
+Evaluate every candidate against the content rules.
+
+The final 50 should feel diverse and coherent.
+
+==================================================
+IMPORTANT ABOUT REAL PEOPLE
+==================================================
+
+Do not invent facts.
+
+Do not claim:
+
+"She was always kind."
+
+"He was naturally fearless."
+
+"Everyone loved him."
+
+Instead use wording based on their documented work or public career.
+
+For example:
+
+GOOD:
+"Curiosity turned into groundbreaking experiments that changed how we understand the world."
+
+BAD:
+"She was the smartest person alive."
+
+GOOD:
+"Competitive fire, relentless preparation, and a career built around pushing limits."
+
+BAD:
+"He never felt nervous."
+
+The traits are fictional game mechanics.
+
+They should represent an archetype derived from the person's public work, not a factual psychological diagnosis.
+
+==================================================
+JSON FORMAT
+==================================================
+
+Return EXACTLY this structure (a JSON object, not a bare array):
+
+{
+  "celebrities": [
+    {
+      "name": "Person Name",
+      "description": "Short fun description.",
+      "avatar": "scientist",
+      "traits": {
+        "creativity": 0.85,
+        "independence": 0.80,
+        "curiosity": 0.95,
+        "empathy": 0.65,
+        "spontaneity": 0.45,
+        "sociability": 0.40,
+        "adventure": 0.60,
+        "leadership": 0.55,
+        "ambition": 0.85,
+        "risk_taking": 0.70
+      }
+    }
+  ]
+}
+
+==================================================
+ID RULES
+==================================================
+
+Do NOT generate "id" fields.
+
+The Python script assigns sequential IDs (celebrity_001, celebrity_002, ...)
+when appending batches to the existing file.
+
+
+Do not include titles unless the title is commonly part of the person's name.
+
+==================================================
+DESCRIPTION RULES
+==================================================
+
+Every description must:
+
+- be unique
+- be fun
+- be positive or constructive
+- be approximately 10–20 words
+- describe the archetype represented by the person
+- avoid claiming private psychological facts
+- avoid political persuasion
+- avoid religious persuasion
+- avoid controversial claims
+
+Do not make descriptions sound like Wikipedia.
+
+==================================================
+QUALITY CONTROL
+==================================================
+
+Before returning the final JSON, verify ALL of the following:
+
+1. Exactly {{BATCH_SIZE}} people inside the "celebrities" array.
+2. Do not include "id" fields.
+3. No duplicate people.
+4. Every person has a name.
+5. Every person has a description.
+6. Every person has an avatar.
+7. Every person has exactly 10 traits.
+8. Only the allowed 10 traits are used.
+9. Every trait is between 0.0 and 1.0.
+10. Trait profiles are meaningfully different.
+11. Descriptions are unique.
+12. The list contains historical and modern figures.
+13. The list contains multiple professions.
+14. The list is internationally diverse.
+15. The majority of people are known for constructive, beneficial, creative, scientific, humanitarian, educational, athletic, or otherwise meaningful work.
+16. No person is primarily famous for alcohol, drugs, gambling, pornography, explicit sexual content, criminal activity, terrorism, extremist movements, or similar inappropriate themes.
+17. Avoid active political figures.
+18. Do not invent biographical facts.
+19. Do not describe the trait values as scientifically measured personality traits.
+20. Return ONLY a valid JSON object with a "celebrities" array.
+
+==================================================
+FINAL OUTPUT
+==================================================
+
+Return ONLY a JSON object of the form {"celebrities": [...]}.
+
+No Markdown.
+
+No ```json.
+
+No bare array.
+
+No explanation.
+
+No commentary before or after the JSON.

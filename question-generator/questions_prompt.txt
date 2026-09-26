@@ -1,0 +1,284 @@
+You are generating questions for a fun web game called "Celebrity Twin".
+
+The game tries to match a player with a celebrity based on their personality, behavior, habits, and choices.
+
+This is NOT a scientific personality test. The questions should feel entertaining, relatable, surprising, and conversational.
+
+Generate EXACTLY 50 unique questions.
+
+IMPORTANT:
+- Do NOT generate IDs. The Python script will assign unique IDs later.
+- Return ONLY valid JSON.
+- Do NOT include Markdown.
+- Do NOT include explanations outside the JSON.
+- Every question must have exactly 4 answer choices.
+- Every answer must contain trait weights.
+- Questions should be understandable without additional context.
+- Avoid repetitive question structures.
+
+--------------------------------------------------
+ALLOWED TRAITS
+--------------------------------------------------
+
+Use only these traits:
+
+- adventure
+- ambition
+- creativity
+- curiosity
+- independence
+- sociability
+- empathy
+- risk_taking
+- leadership
+- spontaneity
+
+Trait weights must be numbers from 0.0 to 1.0.
+
+Each answer should influence 2–4 traits.
+
+--------------------------------------------------
+QUESTION STYLE
+--------------------------------------------------
+
+Questions should feel like fun conversation rather than a personality questionnaire.
+
+Prefer:
+- hypothetical situations
+- funny dilemmas
+- unexpected situations
+- everyday behavior
+- social situations
+- work situations
+- technology culture
+- developer/workspace culture
+- internet culture
+- decision-making
+- mildly chaotic situations
+- "what would you do?" scenarios
+- situations where there is no obviously correct answer
+
+Avoid boring questions such as:
+
+- What's your favorite color?
+- Are you introverted or extroverted?
+- What's your favorite food?
+- Do you like music?
+- Are you hardworking?
+
+Instead, reveal personality indirectly through choices.
+
+--------------------------------------------------
+TECH & WORKSPACE QUESTIONS
+--------------------------------------------------
+
+Include a meaningful portion of questions around technology, developer culture, and modern workspaces.
+
+These should NOT be technical interview questions.
+
+The player does NOT need to know how to code.
+
+The questions should be relatable to developers, tech workers, students, remote workers, and internet culture.
+
+Examples of the type of humor and situations to use:
+
+- Your code works perfectly and you have no idea why. What do you do?
+- It's Friday at 4:55 PM and someone says "tiny change". What's your reaction?
+- Your laptop has 37 browser tabs open. How do you deal with it?
+- Your terminal has 14 tabs and you can't remember what any of them are for.
+- You accidentally close the terminal where you had the important command.
+- Your code works locally but mysteriously breaks on someone else's machine.
+- Someone says "it works on my machine." What happens next?
+- You have finally fixed a bug that took three hours. What do you do?
+- You open an old project and find code you wrote two years ago.
+- Your AI coding assistant generates something that somehow works on the first try.
+- Your AI coding assistant confidently gives you completely wrong code.
+- You have one task left before you can relax, but suddenly a "quick meeting" appears.
+- Your coworker asks you to explain code you wrote six months ago.
+- Your internet goes down five minutes before an important meeting.
+- You are working from home and someone rings the doorbell during a meeting.
+- You accidentally send "LGTM" without actually reviewing the code.
+- You discover that the bug was caused by a missing semicolon / typo / one-character mistake.
+- Your computer starts installing updates when you're in a hurry.
+- You have to choose between a clean desk and maximum productivity.
+- Your workspace has become an archaeological site of coffee cups, cables, notebooks, and gadgets.
+- You get a new monitor and suddenly feel 30% more productive.
+- You have 3 monitors but still somehow need more screen space.
+- Someone asks you to fix their computer because "you work with computers."
+- Your friend sends you a screenshot of an error and asks "what is this?"
+- You have been staring at a bug for an hour and someone else finds it in 30 seconds.
+- You accidentally discover a solution while trying something completely unrelated.
+
+Use developer/internet memes naturally, but do NOT make every question a programming joke.
+
+The goal is:
+
+"That's painfully relatable 😂"
+
+rather than:
+
+"This is a technical exam."
+
+--------------------------------------------------
+MEME / INTERNET CULTURE
+--------------------------------------------------
+
+Include some questions inspired by modern internet culture and relatable memes.
+
+Examples of themes:
+
+- procrastination
+- doom scrolling
+- opening social media for "five minutes"
+- having too many tabs
+- "I'll do it tomorrow"
+- pretending to understand something in a meeting
+- replying to messages mentally but forgetting to actually reply
+- saying "one more episode"
+- buying gadgets that supposedly increase productivity
+- having a productivity setup but procrastinating anyway
+- starting a new project instead of finishing the old one
+- fixing one thing and accidentally breaking three others
+- searching Google for something you already knew
+- asking an AI assistant something you could have searched yourself
+- saving useful links and never opening them again
+
+Keep these playful and recognizable without relying on specific copyrighted memes, celebrities, or brands.
+
+--------------------------------------------------
+TECH QUESTION BALANCE
+--------------------------------------------------
+
+Approximately 20–30% of the 50 questions should involve:
+
+- technology
+- developers
+- coding culture
+- workspaces
+- remote work
+- AI tools
+- productivity
+- internet culture
+
+The remaining questions should cover broader personality situations.
+
+Do NOT make the entire game about programmers.
+
+--------------------------------------------------
+DIVERSITY
+--------------------------------------------------
+
+Make the 50 questions diverse across:
+
+- social situations
+- work
+- technology
+- friendships
+- unexpected problems
+- money
+- adventure
+- creativity
+- leadership
+- risk
+- curiosity
+- spontaneous decisions
+- awkward situations
+- hypothetical situations
+- everyday life
+
+Avoid asking essentially the same question multiple times.
+
+--------------------------------------------------
+ANSWER DESIGN
+--------------------------------------------------
+
+Each question must have exactly 4 answers.
+
+Answers should represent genuinely different personalities.
+
+Avoid obvious:
+
+A = good person
+B = bad person
+C = smart person
+D = stupid person
+
+There should be no universally correct answer.
+
+Answers should be short, natural, and sometimes funny.
+
+Example:
+
+Question:
+"Your code suddenly works after you changed absolutely nothing. What do you do?"
+
+Answers could be:
+
+1. "Don't touch it. It's a miracle."
+2. "Figure out why before moving on."
+3. "Commit immediately before it changes its mind."
+4. "Tell everyone I fixed it."
+
+Each answer should map to different personality traits.
+
+--------------------------------------------------
+JSON FORMAT
+--------------------------------------------------
+
+Return exactly this structure:
+
+[
+  {
+    "question": "Question text",
+    "answers": [
+      {
+        "text": "Answer 1",
+        "traits": {
+          "curiosity": 0.8,
+          "creativity": 0.4
+        }
+      },
+      {
+        "text": "Answer 2",
+        "traits": {
+          "risk_taking": 0.7,
+          "spontaneity": 0.6
+        }
+      },
+      {
+        "text": "Answer 3",
+        "traits": {
+          "leadership": 0.7,
+          "ambition": 0.5
+        }
+      },
+      {
+        "text": "Answer 4",
+        "traits": {
+          "sociability": 0.8,
+          "empathy": 0.4
+        }
+      }
+    ]
+  }
+]
+
+--------------------------------------------------
+FINAL REQUIREMENTS
+--------------------------------------------------
+
+Before returning the response, make sure:
+
+1. There are exactly 50 questions.
+2. Every question is unique.
+3. Every question has exactly 4 answers.
+4. Every answer has a "text" field.
+5. Every answer has a "traits" object.
+6. Only the allowed traits are used.
+7. All trait weights are between 0.0 and 1.0.
+8. Questions are fun and conversational.
+9. Around 20–30% involve technology/workspace/internet culture.
+10. The rest cover broader personality situations.
+11. No question requires technical programming knowledge.
+12. Do not generate IDs.
+13. Return ONLY valid JSON.

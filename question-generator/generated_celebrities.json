@@ -1,0 +1,992 @@
+[
+  {
+    "name": "Ibn al-Haytham",
+    "description": "Relentless observer, turning light into knowledge, never satisfied until the mystery of vision yields.",
+    "avatar": "scientist",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.6,
+      "creativity": 0.88,
+      "curiosity": 0.97,
+      "independence": 0.9,
+      "sociability": 0.4,
+      "empathy": 0.45,
+      "risk_taking": 0.65,
+      "leadership": 0.55,
+      "spontaneity": 0.3
+    },
+    "id": "celebrity_001"
+  },
+  {
+    "name": "Marie Curie",
+    "description": "Radiant pioneer, chasing invisible particles, turning perseverance into Nobel‑winning discoveries.",
+    "avatar": "scientist",
+    "traits": {
+      "adventure": 0.5,
+      "ambition": 0.92,
+      "creativity": 0.8,
+      "curiosity": 0.95,
+      "independence": 0.85,
+      "sociability": 0.35,
+      "empathy": 0.55,
+      "risk_taking": 0.78,
+      "leadership": 0.6,
+      "spontaneity": 0.25
+    },
+    "id": "celebrity_002"
+  },
+  {
+    "name": "Serena Williams",
+    "description": "Powerful serve, relentless drive, turning pressure into trophies and inspiring countless athletes worldwide.",
+    "avatar": "champion",
+    "traits": {
+      "adventure": 0.45,
+      "ambition": 0.95,
+      "creativity": 0.7,
+      "curiosity": 0.55,
+      "independence": 0.65,
+      "sociability": 0.88,
+      "empathy": 0.6,
+      "risk_taking": 0.8,
+      "leadership": 0.78,
+      "spontaneity": 0.7
+    },
+    "id": "celebrity_003"
+  },
+  {
+    "name": "Wangari Maathai",
+    "description": "Green‑fisted visionary, planting forests while rallying communities, proving nature and courage grow together.",
+    "avatar": "humanitarian",
+    "traits": {
+      "adventure": 0.7,
+      "ambition": 0.78,
+      "creativity": 0.75,
+      "curiosity": 0.65,
+      "independence": 0.7,
+      "sociability": 0.85,
+      "empathy": 0.92,
+      "risk_taking": 0.68,
+      "leadership": 0.88,
+      "spontaneity": 0.6
+    },
+    "id": "celebrity_004"
+  },
+  {
+    "name": "Elon Musk",
+    "description": "Space‑dreaming disruptor, launching rockets and electric cars, constantly betting on tomorrow’s impossible.",
+    "avatar": "inventor",
+    "traits": {
+      "adventure": 0.8,
+      "ambition": 0.96,
+      "creativity": 0.93,
+      "curiosity": 0.85,
+      "independence": 0.92,
+      "sociability": 0.55,
+      "empathy": 0.3,
+      "risk_taking": 0.9,
+      "leadership": 0.8,
+      "spontaneity": 0.4
+    },
+    "id": "celebrity_005"
+  },
+  {
+    "name": "Marie Curie",
+    "description": "Radiates relentless curiosity, turning invisible atoms into Nobel-winning light.",
+    "avatar": "scientist",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.92,
+      "creativity": 0.88,
+      "curiosity": 0.98,
+      "independence": 0.85,
+      "sociability": 0.4,
+      "empathy": 0.6,
+      "risk_taking": 0.7,
+      "leadership": 0.65,
+      "spontaneity": 0.3
+    },
+    "id": "celebrity_006"
+  },
+  {
+    "name": "Ibn al-Haytham",
+    "description": "Optical wizard who chased light through lenses, proving nature’s secrets.",
+    "avatar": "scholar",
+    "traits": {
+      "adventure": 0.65,
+      "ambition": 0.8,
+      "creativity": 0.9,
+      "curiosity": 0.95,
+      "independence": 0.88,
+      "sociability": 0.45,
+      "empathy": 0.55,
+      "risk_taking": 0.6,
+      "leadership": 0.5,
+      "spontaneity": 0.35
+    },
+    "id": "celebrity_007"
+  },
+  {
+    "name": "Katherine Johnson",
+    "description": "Mathematical trailblazer charting orbital paths, proving numbers can fly.",
+    "avatar": "mathematician",
+    "traits": {
+      "adventure": 0.45,
+      "ambition": 0.88,
+      "creativity": 0.75,
+      "curiosity": 0.9,
+      "independence": 0.8,
+      "sociability": 0.55,
+      "empathy": 0.7,
+      "risk_taking": 0.5,
+      "leadership": 0.68,
+      "spontaneity": 0.3
+    },
+    "id": "celebrity_008"
+  },
+  {
+    "name": "Pelé",
+    "description": "Football legend whose footwork turned stadiums into poetry stages.",
+    "avatar": "athlete",
+    "traits": {
+      "adventure": 0.7,
+      "ambition": 0.85,
+      "creativity": 0.8,
+      "curiosity": 0.55,
+      "independence": 0.6,
+      "sociability": 0.9,
+      "empathy": 0.65,
+      "risk_taking": 0.75,
+      "leadership": 0.78,
+      "spontaneity": 0.85
+    },
+    "id": "celebrity_009"
+  },
+  {
+    "name": "Malala Yousafzai",
+    "description": "Brave voice turning schoolbooks into swords for girls worldwide.",
+    "avatar": "activist",
+    "traits": {
+      "adventure": 0.6,
+      "ambition": 0.9,
+      "creativity": 0.7,
+      "curiosity": 0.8,
+      "independence": 0.85,
+      "sociability": 0.8,
+      "empathy": 0.95,
+      "risk_taking": 0.88,
+      "leadership": 0.92,
+      "spontaneity": 0.4
+    },
+    "id": "celebrity_010"
+  },
+  {
+    "name": "Ada Lovelace",
+    "description": "Victorian visionary who imagined computers dancing long before silicon existed.",
+    "avatar": "pioneer",
+    "traits": {
+      "adventure": 0.5,
+      "ambition": 0.78,
+      "creativity": 0.95,
+      "curiosity": 0.92,
+      "independence": 0.87,
+      "sociability": 0.35,
+      "empathy": 0.55,
+      "risk_taking": 0.55,
+      "leadership": 0.45,
+      "spontaneity": 0.65
+    },
+    "id": "celebrity_011"
+  },
+  {
+    "name": "Wangari Maathai",
+    "description": "Green crusader planting trees, turning forests into hope for generations.",
+    "avatar": "environmentalist",
+    "traits": {
+      "adventure": 0.68,
+      "ambition": 0.82,
+      "creativity": 0.78,
+      "curiosity": 0.7,
+      "independence": 0.8,
+      "sociability": 0.65,
+      "empathy": 0.93,
+      "risk_taking": 0.7,
+      "leadership": 0.88,
+      "spontaneity": 0.45
+    },
+    "id": "celebrity_012"
+  },
+  {
+    "name": "Neil Armstrong",
+    "description": "First step on moon, turning a giant leap into human legend.",
+    "avatar": "astronaut",
+    "traits": {
+      "adventure": 0.95,
+      "ambition": 0.9,
+      "creativity": 0.65,
+      "curiosity": 0.88,
+      "independence": 0.85,
+      "sociability": 0.5,
+      "empathy": 0.6,
+      "risk_taking": 0.92,
+      "leadership": 0.8,
+      "spontaneity": 0.4
+    },
+    "id": "celebrity_013"
+  },
+  {
+    "name": "Yao Ming",
+    "description": "Tall gentle giant who turned basketball courts into cultural bridges.",
+    "avatar": "basketballer",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.8,
+      "creativity": 0.6,
+      "curiosity": 0.5,
+      "independence": 0.7,
+      "sociability": 0.88,
+      "empathy": 0.78,
+      "risk_taking": 0.45,
+      "leadership": 0.7,
+      "spontaneity": 0.55
+    },
+    "id": "celebrity_014"
+  },
+  {
+    "name": "Hayao Miyazaki",
+    "description": "Dream-weaver animating forests, flying machines, and hearts with boundless imagination.",
+    "avatar": "filmmaker",
+    "traits": {
+      "adventure": 0.78,
+      "ambition": 0.85,
+      "creativity": 0.98,
+      "curiosity": 0.9,
+      "independence": 0.82,
+      "sociability": 0.6,
+      "empathy": 0.88,
+      "risk_taking": 0.7,
+      "leadership": 0.65,
+      "spontaneity": 0.95
+    },
+    "id": "celebrity_015"
+  },
+  {
+    "name": "Marie Curie",
+    "description": "Radiation‑loving pioneer who turned glowing rocks into Nobel‑winning science breakthroughs.",
+    "avatar": "scientist",
+    "traits": {
+      "adventure": 0.45,
+      "ambition": 0.9,
+      "creativity": 0.8,
+      "curiosity": 0.95,
+      "independence": 0.85,
+      "sociability": 0.3,
+      "empathy": 0.6,
+      "risk_taking": 0.7,
+      "leadership": 0.55,
+      "spontaneity": 0.4
+    },
+    "id": "celebrity_016"
+  },
+  {
+    "name": "Ibn al-Haytham",
+    "description": "Middle‑age optics wizard who chased light, proving sight is a clever trick of physics.",
+    "avatar": "scholar",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.8,
+      "creativity": 0.88,
+      "curiosity": 0.97,
+      "independence": 0.9,
+      "sociability": 0.35,
+      "empathy": 0.5,
+      "risk_taking": 0.6,
+      "leadership": 0.45,
+      "spontaneity": 0.3
+    },
+    "id": "celebrity_017"
+  },
+  {
+    "name": "Nikola Tesla",
+    "description": "Electric dreamer who imagined wireless worlds, sparking inventions that still crackle today.",
+    "avatar": "inventor",
+    "traits": {
+      "adventure": 0.7,
+      "ambition": 0.85,
+      "creativity": 0.95,
+      "curiosity": 0.9,
+      "independence": 0.8,
+      "sociability": 0.25,
+      "empathy": 0.4,
+      "risk_taking": 0.85,
+      "leadership": 0.5,
+      "spontaneity": 0.55
+    },
+    "id": "celebrity_018"
+  },
+  {
+    "name": "Wangari Maathai",
+    "description": "Tree‑hugging activist who turned Kenya’s hillsides into green, community‑powered forests.",
+    "avatar": "environmentalist",
+    "traits": {
+      "adventure": 0.6,
+      "ambition": 0.78,
+      "creativity": 0.7,
+      "curiosity": 0.65,
+      "independence": 0.8,
+      "sociability": 0.75,
+      "empathy": 0.9,
+      "risk_taking": 0.55,
+      "leadership": 0.85,
+      "spontaneity": 0.45
+    },
+    "id": "celebrity_019"
+  },
+  {
+    "name": "Abdul Sattar Edhi",
+    "description": "Compassionate lifeline builder who gave Pakistan a safety net of shelters and hope.",
+    "avatar": "humanitarian",
+    "traits": {
+      "adventure": 0.4,
+      "ambition": 0.7,
+      "creativity": 0.55,
+      "curiosity": 0.5,
+      "independence": 0.85,
+      "sociability": 0.8,
+      "empathy": 0.98,
+      "risk_taking": 0.45,
+      "leadership": 0.88,
+      "spontaneity": 0.35
+    },
+    "id": "celebrity_020"
+  },
+  {
+    "name": "Neil Armstrong",
+    "description": "One small step, one giant grin—first human to dance on lunar dust.",
+    "avatar": "astronaut",
+    "traits": {
+      "adventure": 0.95,
+      "ambition": 0.88,
+      "creativity": 0.6,
+      "curiosity": 0.85,
+      "independence": 0.7,
+      "sociability": 0.55,
+      "empathy": 0.55,
+      "risk_taking": 0.9,
+      "leadership": 0.8,
+      "spontaneity": 0.3
+    },
+    "id": "celebrity_021"
+  },
+  {
+    "name": "Serena Williams",
+    "description": "Court queen whose power serve and fierce focus rewrite tennis history each match.",
+    "avatar": "athlete",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.92,
+      "creativity": 0.65,
+      "curiosity": 0.6,
+      "independence": 0.78,
+      "sociability": 0.85,
+      "empathy": 0.7,
+      "risk_taking": 0.8,
+      "leadership": 0.75,
+      "spontaneity": 0.7
+    },
+    "id": "celebrity_022"
+  },
+  {
+    "name": "Pelé",
+    "description": "Football magician who turned a soccer ball into a globe‑spinning stage of joy.",
+    "avatar": "athlete",
+    "traits": {
+      "adventure": 0.7,
+      "ambition": 0.88,
+      "creativity": 0.85,
+      "curiosity": 0.55,
+      "independence": 0.7,
+      "sociability": 0.8,
+      "empathy": 0.65,
+      "risk_taking": 0.75,
+      "leadership": 0.7,
+      "spontaneity": 0.85
+    },
+    "id": "celebrity_023"
+  },
+  {
+    "name": "Marie Curie",
+    "description": "Radiation pioneer whose relentless curiosity lit up science and healed countless lives.",
+    "avatar": "scientist",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.9,
+      "creativity": 0.8,
+      "curiosity": 0.95,
+      "independence": 0.85,
+      "sociability": 0.4,
+      "empathy": 0.7,
+      "risk_taking": 0.75,
+      "leadership": 0.65,
+      "spontaneity": 0.3
+    },
+    "id": "celebrity_024"
+  },
+  {
+    "name": "Ibn al-Haytham",
+    "description": "Medieval optics wizard who turned light into knowledge, never stopping at the obvious.",
+    "avatar": "scholar",
+    "traits": {
+      "adventure": 0.6,
+      "ambition": 0.8,
+      "creativity": 0.85,
+      "curiosity": 0.97,
+      "independence": 0.9,
+      "sociability": 0.35,
+      "empathy": 0.55,
+      "risk_taking": 0.7,
+      "leadership": 0.5,
+      "spontaneity": 0.4
+    },
+    "id": "celebrity_025"
+  },
+  {
+    "name": "Wangari Maathai",
+    "description": "Tree‑planting champion who turned forests into hope, rallying communities across Kenya.",
+    "avatar": "environmentalist",
+    "traits": {
+      "adventure": 0.7,
+      "ambition": 0.85,
+      "creativity": 0.65,
+      "curiosity": 0.6,
+      "independence": 0.8,
+      "sociability": 0.75,
+      "empathy": 0.95,
+      "risk_taking": 0.8,
+      "leadership": 0.9,
+      "spontaneity": 0.55
+    },
+    "id": "celebrity_026"
+  },
+  {
+    "name": "Pelé",
+    "description": "Football legend whose creative flair turned the pitch into a playground of endless possibilities.",
+    "avatar": "champion",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.88,
+      "creativity": 0.9,
+      "curiosity": 0.5,
+      "independence": 0.45,
+      "sociability": 0.8,
+      "empathy": 0.7,
+      "risk_taking": 0.65,
+      "leadership": 0.85,
+      "spontaneity": 0.75
+    },
+    "id": "celebrity_027"
+  },
+  {
+    "name": "Malala Yousafzai",
+    "description": "Young education crusader whose brave voice sparks global empathy for every child's right to learn.",
+    "avatar": "advocate",
+    "traits": {
+      "adventure": 0.5,
+      "ambition": 0.92,
+      "creativity": 0.55,
+      "curiosity": 0.7,
+      "independence": 0.85,
+      "sociability": 0.8,
+      "empathy": 0.98,
+      "risk_taking": 0.9,
+      "leadership": 0.88,
+      "spontaneity": 0.45
+    },
+    "id": "celebrity_028"
+  },
+  {
+    "name": "Steve Jobs",
+    "description": "Design visionary who fused art and tech, daring the world to think differently.",
+    "avatar": "innovator",
+    "traits": {
+      "adventure": 0.45,
+      "ambition": 0.95,
+      "creativity": 0.98,
+      "curiosity": 0.85,
+      "independence": 0.9,
+      "sociability": 0.6,
+      "empathy": 0.55,
+      "risk_taking": 0.92,
+      "leadership": 0.88,
+      "spontaneity": 0.7
+    },
+    "id": "celebrity_029"
+  },
+  {
+    "name": "Leonardo da Vinci",
+    "description": "Renaissance mastermind, turning wild sketches into inventions, forever chasing the next impossible idea.",
+    "avatar": "inventor",
+    "traits": {
+      "adventure": 0.65,
+      "ambition": 0.9,
+      "creativity": 0.98,
+      "curiosity": 0.95,
+      "independence": 0.85,
+      "sociability": 0.4,
+      "empathy": 0.5,
+      "risk_taking": 0.7,
+      "leadership": 0.55,
+      "spontaneity": 0.6
+    },
+    "id": "celebrity_030"
+  },
+  {
+    "name": "Ibn al-Haytham",
+    "description": "Medieval optics pioneer, dissecting light with relentless curiosity, laying foundations for modern science.",
+    "avatar": "scholar",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.8,
+      "creativity": 0.9,
+      "curiosity": 0.97,
+      "independence": 0.88,
+      "sociability": 0.35,
+      "empathy": 0.45,
+      "risk_taking": 0.65,
+      "leadership": 0.5,
+      "spontaneity": 0.4
+    },
+    "id": "celebrity_031"
+  },
+  {
+    "name": "Marie Curie",
+    "description": "Radiation trailblazer, fearless researcher whose glow illuminated physics and medicine for generations.",
+    "avatar": "scientist",
+    "traits": {
+      "adventure": 0.45,
+      "ambition": 0.92,
+      "creativity": 0.85,
+      "curiosity": 0.96,
+      "independence": 0.78,
+      "sociability": 0.3,
+      "empathy": 0.55,
+      "risk_taking": 0.8,
+      "leadership": 0.6,
+      "spontaneity": 0.35
+    },
+    "id": "celebrity_032"
+  },
+  {
+    "name": "Amelia Earhart",
+    "description": "Sky‑bound pioneer, charting new horizons and proving the world’s skies belong to anyone daring enough.",
+    "avatar": "explorer",
+    "traits": {
+      "adventure": 0.9,
+      "ambition": 0.88,
+      "creativity": 0.7,
+      "curiosity": 0.8,
+      "independence": 0.92,
+      "sociability": 0.55,
+      "empathy": 0.5,
+      "risk_taking": 0.95,
+      "leadership": 0.75,
+      "spontaneity": 0.7
+    },
+    "id": "celebrity_033"
+  },
+  {
+    "name": "Wangari Maathai",
+    "description": "Kenyan tree‑hugger, planting forests and empowering communities, turning green dreams into living legacies.",
+    "avatar": "environmentalist",
+    "traits": {
+      "adventure": 0.7,
+      "ambition": 0.85,
+      "creativity": 0.75,
+      "curiosity": 0.7,
+      "independence": 0.8,
+      "sociability": 0.65,
+      "empathy": 0.95,
+      "risk_taking": 0.78,
+      "leadership": 0.88,
+      "spontaneity": 0.55
+    },
+    "id": "celebrity_034"
+  },
+  {
+    "name": "Malala Yousafzai",
+    "description": "Young education champion, speaking loudly for girls’ schools, turning bravery into global change.",
+    "avatar": "activist",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.9,
+      "creativity": 0.65,
+      "curiosity": 0.85,
+      "independence": 0.8,
+      "sociability": 0.85,
+      "empathy": 0.92,
+      "risk_taking": 0.88,
+      "leadership": 0.9,
+      "spontaneity": 0.45
+    },
+    "id": "celebrity_035"
+  },
+  {
+    "name": "Usain Bolt",
+    "description": "Lightning‑fast sprinter, turning tracks into stages, his grin as iconic as his record‑breaking speed.",
+    "avatar": "champion",
+    "traits": {
+      "adventure": 0.6,
+      "ambition": 0.95,
+      "creativity": 0.55,
+      "curiosity": 0.4,
+      "independence": 0.7,
+      "sociability": 0.8,
+      "empathy": 0.35,
+      "risk_taking": 0.85,
+      "leadership": 0.7,
+      "spontaneity": 0.8
+    },
+    "id": "celebrity_036"
+  },
+  {
+    "name": "Ada Lovelace",
+    "description": "Victorian code‑visionary, dreaming of computers before they existed, weaving poetry into early algorithms.",
+    "avatar": "programmer",
+    "traits": {
+      "adventure": 0.45,
+      "ambition": 0.78,
+      "creativity": 0.88,
+      "curiosity": 0.94,
+      "independence": 0.9,
+      "sociability": 0.3,
+      "empathy": 0.4,
+      "risk_taking": 0.55,
+      "leadership": 0.45,
+      "spontaneity": 0.5
+    },
+    "id": "celebrity_037"
+  },
+  {
+    "name": "Pelé",
+    "description": "Football magician, dribbling joy across continents, turning a ball into a universal language of hope.",
+    "avatar": "athlete",
+    "traits": {
+      "adventure": 0.65,
+      "ambition": 0.88,
+      "creativity": 0.8,
+      "curiosity": 0.55,
+      "independence": 0.7,
+      "sociability": 0.9,
+      "empathy": 0.6,
+      "risk_taking": 0.7,
+      "leadership": 0.85,
+      "spontaneity": 0.75
+    },
+    "id": "celebrity_038"
+  },
+  {
+    "name": "Greta Thunberg",
+    "description": "Teen climate crusader, demanding action with fierce focus, turning school protests into worldwide urgency.",
+    "avatar": "climate",
+    "traits": {
+      "adventure": 0.7,
+      "ambition": 0.85,
+      "creativity": 0.6,
+      "curiosity": 0.8,
+      "independence": 0.88,
+      "sociability": 0.75,
+      "empathy": 0.9,
+      "risk_taking": 0.78,
+      "leadership": 0.92,
+      "spontaneity": 0.45
+    },
+    "id": "celebrity_039"
+  },
+  {
+    "name": "Leonardo da Vinci",
+    "description": "Renaissance mastermind who jotted flying machines and masterpieces—always sketching the next impossible invention.",
+    "avatar": "inventor",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.8,
+      "creativity": 0.95,
+      "curiosity": 0.9,
+      "independence": 0.85,
+      "sociability": 0.45,
+      "empathy": 0.3,
+      "risk_taking": 0.6,
+      "leadership": 0.5,
+      "spontaneity": 0.65
+    },
+    "id": "celebrity_040"
+  },
+  {
+    "name": "Ibn al-Haytham",
+    "description": "Medieval light detective who turned sunbeams into science, proving that curiosity can illuminate the world.",
+    "avatar": "scholar",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.6,
+      "creativity": 0.7,
+      "curiosity": 0.97,
+      "independence": 0.9,
+      "sociability": 0.3,
+      "empathy": 0.55,
+      "risk_taking": 0.55,
+      "leadership": 0.35,
+      "spontaneity": 0.25
+    },
+    "id": "celebrity_041"
+  },
+  {
+    "name": "Marie Curie",
+    "description": "Radiant pioneer who chased invisible atoms, lighting the path for women in labs worldwide.",
+    "avatar": "scientist",
+    "traits": {
+      "adventure": 0.35,
+      "ambition": 0.88,
+      "creativity": 0.78,
+      "curiosity": 0.95,
+      "independence": 0.9,
+      "sociability": 0.3,
+      "empathy": 0.6,
+      "risk_taking": 0.55,
+      "leadership": 0.55,
+      "spontaneity": 0.2
+    },
+    "id": "celebrity_042"
+  },
+  {
+    "name": "Amelia Earhart",
+    "description": "Sky‑bound trailblazer who swapped maps for clouds, daring the world to fly farther.",
+    "avatar": "explorer",
+    "traits": {
+      "adventure": 0.9,
+      "ambition": 0.85,
+      "creativity": 0.7,
+      "curiosity": 0.75,
+      "independence": 0.88,
+      "sociability": 0.55,
+      "empathy": 0.65,
+      "risk_taking": 0.88,
+      "leadership": 0.7,
+      "spontaneity": 0.8
+    },
+    "id": "celebrity_043"
+  },
+  {
+    "name": "Usain Bolt",
+    "description": "Lightning‑fast sprinter who turned the track into a runway, proving speed can be style.",
+    "avatar": "champion",
+    "traits": {
+      "adventure": 0.6,
+      "ambition": 0.88,
+      "creativity": 0.7,
+      "curiosity": 0.4,
+      "independence": 0.65,
+      "sociability": 0.92,
+      "empathy": 0.55,
+      "risk_taking": 0.55,
+      "leadership": 0.6,
+      "spontaneity": 0.85
+    },
+    "id": "celebrity_044"
+  },
+  {
+    "name": "Malala Yousafzai",
+    "description": "Young book‑lover turned global advocate, schooling the world on courage and education.",
+    "avatar": "humanitarian",
+    "traits": {
+      "adventure": 0.25,
+      "ambition": 0.7,
+      "creativity": 0.65,
+      "curiosity": 0.85,
+      "independence": 0.6,
+      "sociability": 0.88,
+      "empathy": 0.95,
+      "risk_taking": 0.85,
+      "leadership": 0.9,
+      "spontaneity": 0.3
+    },
+    "id": "celebrity_045"
+  },
+  {
+    "name": "Leonardo da Vinci",
+    "description": "Renaissance mastermind, turning sketches into inventions, forever chasing the next impossible idea.",
+    "avatar": "inventor",
+    "traits": {
+      "adventure": 0.7,
+      "ambition": 0.85,
+      "creativity": 0.98,
+      "curiosity": 0.95,
+      "independence": 0.8,
+      "sociability": 0.45,
+      "empathy": 0.55,
+      "risk_taking": 0.65,
+      "leadership": 0.5,
+      "spontaneity": 0.6
+    },
+    "id": "celebrity_046"
+  },
+  {
+    "name": "Marie Curie",
+    "description": "Radiant pioneer, lighting up science with relentless curiosity and unshakeable dedication.",
+    "avatar": "scientist",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.9,
+      "creativity": 0.8,
+      "curiosity": 0.97,
+      "independence": 0.85,
+      "sociability": 0.4,
+      "empathy": 0.6,
+      "risk_taking": 0.7,
+      "leadership": 0.55,
+      "spontaneity": 0.3
+    },
+    "id": "celebrity_047"
+  },
+  {
+    "name": "Wangari Maathai",
+    "description": "Tree‑hugging activist planting forests and hope, leading communities to greener futures.",
+    "avatar": "environmentalist",
+    "traits": {
+      "adventure": 0.6,
+      "ambition": 0.8,
+      "creativity": 0.7,
+      "curiosity": 0.65,
+      "independence": 0.75,
+      "sociability": 0.85,
+      "empathy": 0.95,
+      "risk_taking": 0.55,
+      "leadership": 0.9,
+      "spontaneity": 0.4
+    },
+    "id": "celebrity_048"
+  },
+  {
+    "name": "Neil Armstrong",
+    "description": "One small step, one giant leap—calm explorer who turned lunar dust into legend.",
+    "avatar": "astronaut",
+    "traits": {
+      "adventure": 0.95,
+      "ambition": 0.8,
+      "creativity": 0.55,
+      "curiosity": 0.85,
+      "independence": 0.7,
+      "sociability": 0.6,
+      "empathy": 0.5,
+      "risk_taking": 0.9,
+      "leadership": 0.75,
+      "spontaneity": 0.35
+    },
+    "id": "celebrity_049"
+  },
+  {
+    "name": "Malala Yousafzai",
+    "description": "Young voice championing education, daring the world to listen and act.",
+    "avatar": "activist",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.88,
+      "creativity": 0.65,
+      "curiosity": 0.78,
+      "independence": 0.9,
+      "sociability": 0.8,
+      "empathy": 0.95,
+      "risk_taking": 0.85,
+      "leadership": 0.92,
+      "spontaneity": 0.4
+    },
+    "id": "celebrity_050"
+  },
+  {
+    "name": "Usain Bolt",
+    "description": "Lightning‑fast sprinter who turns tracks into stages, celebrating speed with a grin.",
+    "avatar": "sprinter",
+    "traits": {
+      "adventure": 0.45,
+      "ambition": 0.92,
+      "creativity": 0.55,
+      "curiosity": 0.4,
+      "independence": 0.6,
+      "sociability": 0.88,
+      "empathy": 0.55,
+      "risk_taking": 0.7,
+      "leadership": 0.68,
+      "spontaneity": 0.8
+    },
+    "id": "celebrity_051"
+  },
+  {
+    "name": "Maya Angelou",
+    "description": "Poetic storyteller weaving strength and grace, inspiring generations with rhythmic wisdom.",
+    "avatar": "poet",
+    "traits": {
+      "adventure": 0.5,
+      "ambition": 0.75,
+      "creativity": 0.9,
+      "curiosity": 0.7,
+      "independence": 0.8,
+      "sociability": 0.85,
+      "empathy": 0.95,
+      "risk_taking": 0.45,
+      "leadership": 0.7,
+      "spontaneity": 0.65
+    },
+    "id": "celebrity_052"
+  },
+  {
+    "name": "Tim Berners-Lee",
+    "description": "Internet architect who stitched a worldwide web, connecting ideas across continents.",
+    "avatar": "programmer",
+    "traits": {
+      "adventure": 0.55,
+      "ambition": 0.78,
+      "creativity": 0.85,
+      "curiosity": 0.9,
+      "independence": 0.82,
+      "sociability": 0.7,
+      "empathy": 0.6,
+      "risk_taking": 0.65,
+      "leadership": 0.68,
+      "spontaneity": 0.5
+    },
+    "id": "celebrity_053"
+  },
+  {
+    "name": "Jonas Salk",
+    "description": "Vaccine visionary who chose public good over profit, erasing polio’s fear.",
+    "avatar": "doctor",
+    "traits": {
+      "adventure": 0.45,
+      "ambition": 0.85,
+      "creativity": 0.8,
+      "curiosity": 0.88,
+      "independence": 0.7,
+      "sociability": 0.55,
+      "empathy": 0.9,
+      "risk_taking": 0.6,
+      "leadership": 0.65,
+      "spontaneity": 0.35
+    },
+    "id": "celebrity_054"
+  },
+  {
+    "name": "Pelé",
+    "description": "Football magician dazzling crowds, turning goals into art and uniting nations.",
+    "avatar": "champion",
+    "traits": {
+      "adventure": 0.6,
+      "ambition": 0.88,
+      "creativity": 0.8,
+      "curiosity": 0.55,
+      "independence": 0.65,
+      "sociability": 0.9,
+      "empathy": 0.7,
+      "risk_taking": 0.55,
+      "leadership": 0.85,
+      "spontaneity": 0.75
+    },
+    "id": "celebrity_055"
+  }
+]
